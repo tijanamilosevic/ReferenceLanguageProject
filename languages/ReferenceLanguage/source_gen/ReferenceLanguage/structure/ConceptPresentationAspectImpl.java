@@ -9,20 +9,52 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private ConceptPresentation props_Article;
   private ConceptPresentation props_Author;
+  private ConceptPresentation props_InBook;
+  private ConceptPresentation props_InProceedings;
+  private ConceptPresentation props_PhdThesis;
 
   @Override
   @Nullable
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
+      case LanguageConceptSwitch.Article:
+        if (props_Article == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Article");
+          props_Article = cpb.create();
+        }
+        return props_Article;
       case LanguageConceptSwitch.Author:
         if (props_Author == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
+          cpb.rawPresentation("Author");
           props_Author = cpb.create();
         }
         return props_Author;
+      case LanguageConceptSwitch.InBook:
+        if (props_InBook == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("InBook");
+          props_InBook = cpb.create();
+        }
+        return props_InBook;
+      case LanguageConceptSwitch.InProceedings:
+        if (props_InProceedings == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("InProceedings");
+          props_InProceedings = cpb.create();
+        }
+        return props_InProceedings;
+      case LanguageConceptSwitch.PhdThesis:
+        if (props_PhdThesis == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PhdThesis");
+          props_PhdThesis = cpb.create();
+        }
+        return props_PhdThesis;
     }
     return null;
   }

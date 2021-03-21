@@ -9,11 +9,19 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
-  public static final int Author = 0;
+  public static final int Article = 0;
+  public static final int Author = 1;
+  public static final int InBook = 2;
+  public static final int InProceedings = 3;
+  public static final int PhdThesis = 4;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L);
+    builder.put(0x1a03dc0acd30fbfaL, Article);
     builder.put(0x1a03dc0acd1eab40L, Author);
+    builder.put(0x1a03dc0acd30fc2eL, InBook);
+    builder.put(0x1a03dc0acd30fc62L, InProceedings);
+    builder.put(0x1a03dc0acd30fca5L, PhdThesis);
     myIndex = builder.seal();
   }
 
