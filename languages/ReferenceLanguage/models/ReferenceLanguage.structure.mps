@@ -438,5 +438,153 @@
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1QyflKigtJE">
+    <property role="EcuMT" value="2135336638979628010" />
+    <property role="TrG5h" value="Booklet" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1QyflKigtJJ" role="1TKVEi">
+      <property role="IQ2ns" value="2135336638979628015" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="authors" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1C3R0Fd7EH0" resolve="Author" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtJL" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628017" />
+      <property role="TrG5h" value="title" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtJN" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628019" />
+      <property role="TrG5h" value="howpublished" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtJQ" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628022" />
+      <property role="TrG5h" value="month" />
+      <ref role="AX2Wp" node="1C3R0FdcfNc" resolve="Month" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtJU" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628026" />
+      <property role="TrG5h" value="year" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1QyflKigtJZ">
+    <property role="EcuMT" value="2135336638979628031" />
+    <property role="TrG5h" value="Conference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1QyflKigtK0" role="1TKVEi">
+      <property role="IQ2ns" value="2135336638979628032" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="authors" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1C3R0Fd7EH0" resolve="Author" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtK2" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628034" />
+      <property role="TrG5h" value="title" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtK4" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628036" />
+      <property role="TrG5h" value="bookTitle" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtK7" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628039" />
+      <property role="TrG5h" value="series" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKb" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628043" />
+      <property role="TrG5h" value="year" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKg" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628048" />
+      <property role="TrG5h" value="pages" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKm" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628054" />
+      <property role="TrG5h" value="publisher" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKt" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628061" />
+      <property role="TrG5h" value="address" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1QyflKigtK_">
+    <property role="EcuMT" value="2135336638979628069" />
+    <property role="TrG5h" value="MasterThesis" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1QyflKigtKA" role="1TKVEi">
+      <property role="IQ2ns" value="2135336638979628070" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="author" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1C3R0Fd7EH0" resolve="Author" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKC" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628072" />
+      <property role="TrG5h" value="title" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKE" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628074" />
+      <property role="TrG5h" value="school" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKH" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628077" />
+      <property role="TrG5h" value="year" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKL" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628081" />
+      <property role="TrG5h" value="address" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKQ" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628086" />
+      <property role="TrG5h" value="month" />
+      <ref role="AX2Wp" node="1C3R0FdcfNc" resolve="Month" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1QyflKigtKW">
+    <property role="EcuMT" value="2135336638979628092" />
+    <property role="TrG5h" value="Misc" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1QyflKigtKX" role="1TKVEi">
+      <property role="IQ2ns" value="2135336638979628093" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="authors" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1C3R0Fd7EH0" resolve="Author" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtKZ" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628095" />
+      <property role="TrG5h" value="title" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtL1" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628097" />
+      <property role="TrG5h" value="howpublshed" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtL4" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628100" />
+      <property role="TrG5h" value="year" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="1QyflKigtL8" role="1TKVEl">
+      <property role="IQ2nx" value="2135336638979628104" />
+      <property role="TrG5h" value="note" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
