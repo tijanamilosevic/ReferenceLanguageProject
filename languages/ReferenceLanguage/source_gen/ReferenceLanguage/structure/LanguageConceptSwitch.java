@@ -11,17 +11,37 @@ public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
   public static final int Article = 0;
   public static final int Author = 1;
-  public static final int InBook = 2;
-  public static final int InProceedings = 3;
-  public static final int PhdThesis = 4;
+  public static final int Book = 2;
+  public static final int Booklet = 3;
+  public static final int Conference = 4;
+  public static final int InBook = 5;
+  public static final int InProceedings = 6;
+  public static final int Incollection = 7;
+  public static final int Libraries = 8;
+  public static final int Manual = 9;
+  public static final int MasterThesis = 10;
+  public static final int Misc = 11;
+  public static final int PhdThesis = 12;
+  public static final int Proceedings = 13;
+  public static final int ReferenceType = 14;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L);
     builder.put(0x1a03dc0acd30fbfaL, Article);
     builder.put(0x1a03dc0acd1eab40L, Author);
+    builder.put(0x536290f98ef2267aL, Book);
+    builder.put(0x1da23d5c1241dbeaL, Booklet);
+    builder.put(0x1da23d5c1241dbffL, Conference);
     builder.put(0x1a03dc0acd30fc2eL, InBook);
     builder.put(0x1a03dc0acd30fc62L, InProceedings);
+    builder.put(0x536290f98ef22695L, Incollection);
+    builder.put(0x1e3ba47b555e32e8L, Libraries);
+    builder.put(0x536290f98ef226c3L, Manual);
+    builder.put(0x1da23d5c1241dc25L, MasterThesis);
+    builder.put(0x1da23d5c1241dc3cL, Misc);
     builder.put(0x1a03dc0acd30fca5L, PhdThesis);
+    builder.put(0x536290f98ef226d4L, Proceedings);
+    builder.put(0x1e3ba47b555fd52cL, ReferenceType);
     myIndex = builder.seal();
   }
 

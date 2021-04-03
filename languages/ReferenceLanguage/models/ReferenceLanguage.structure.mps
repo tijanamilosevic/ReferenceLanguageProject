@@ -22,11 +22,20 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
+      <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
+        <reference id="1169127628841" name="intfc" index="PrY4T" />
+      </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
+        <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
       <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
         <property id="241647608299431129" name="propertyId" index="IQ2nx" />
@@ -52,7 +61,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1C3R0FdcfPN" role="1TKVEl">
       <property role="IQ2nx" value="1874583808866581875" />
-      <property role="TrG5h" value="name" />
+      <property role="TrG5h" value="firstName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="1C3R0FdcfPQ" role="1TKVEl">
@@ -69,6 +78,7 @@
   <node concept="1TIwiD" id="1C3R0FdcfJU">
     <property role="EcuMT" value="1874583808866581498" />
     <property role="TrG5h" value="Article" />
+    <property role="34LRSv" value="ARTICLE" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1C3R0FdcfJV" role="1TKVEi">
       <property role="IQ2ns" value="1874583808866581499" />
@@ -107,10 +117,14 @@
       <property role="TrG5h" value="pages" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnXkL" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1C3R0FdcfKI">
     <property role="EcuMT" value="1874583808866581550" />
     <property role="TrG5h" value="InBook" />
+    <property role="34LRSv" value="INBOOK" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1C3R0FdcfKJ" role="1TKVEi">
       <property role="IQ2ns" value="1874583808866581551" />
@@ -149,10 +163,14 @@
       <property role="TrG5h" value="pages" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnYey" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1C3R0FdcfLy">
     <property role="EcuMT" value="1874583808866581602" />
     <property role="TrG5h" value="InProceedings" />
+    <property role="34LRSv" value="INPROCEEDINGS" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1C3R0FdcfLz" role="1TKVEi">
       <property role="IQ2ns" value="1874583808866581603" />
@@ -196,10 +214,14 @@
       <property role="TrG5h" value="address" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnYeA" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1C3R0FdcfM_">
     <property role="EcuMT" value="1874583808866581669" />
     <property role="TrG5h" value="PhdThesis" />
+    <property role="34LRSv" value="PHD_THESIS" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1C3R0FdcfMA" role="1TKVEi">
       <property role="IQ2ns" value="1874583808866581670" />
@@ -232,6 +254,9 @@
       <property role="IQ2nx" value="1874583808866581697" />
       <property role="TrG5h" value="month" />
       <ref role="AX2Wp" node="1C3R0FdcfNc" resolve="Month" />
+    </node>
+    <node concept="PrWs8" id="1SVD7HlnYeI" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
     </node>
   </node>
   <node concept="25R3W" id="1C3R0FdcfNc">
@@ -290,6 +315,7 @@
   <node concept="1TIwiD" id="5dy$fAeWypU">
     <property role="EcuMT" value="6008524254385153658" />
     <property role="TrG5h" value="Book" />
+    <property role="34LRSv" value="BOOK" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5dy$fAeWypV" role="1TKVEi">
       <property role="IQ2ns" value="6008524254385153659" />
@@ -318,10 +344,14 @@
       <property role="TrG5h" value="year" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnXkJ" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5dy$fAeWyql">
     <property role="EcuMT" value="6008524254385153685" />
     <property role="TrG5h" value="Incollection" />
+    <property role="34LRSv" value="INCOLLECTION" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5dy$fAeWyqs" role="1TKVEi">
       <property role="IQ2ns" value="6008524254385153692" />
@@ -365,10 +395,14 @@
       <property role="TrG5h" value="pages" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnYe$" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5dy$fAeWyr3">
     <property role="EcuMT" value="6008524254385153731" />
     <property role="TrG5h" value="Manual" />
+    <property role="34LRSv" value="MANUAL" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5dy$fAeWyr4" role="1TKVEi">
       <property role="IQ2ns" value="6008524254385153732" />
@@ -397,10 +431,14 @@
       <property role="TrG5h" value="year" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnYeC" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5dy$fAeWyrk">
     <property role="EcuMT" value="6008524254385153748" />
     <property role="TrG5h" value="Proceedings" />
+    <property role="34LRSv" value="PROCEEDINGS" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5dy$fAeWyrK" role="1TKVEl">
       <property role="IQ2nx" value="6008524254385153776" />
@@ -437,10 +475,14 @@
       <property role="TrG5h" value="year" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnYeK" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1QyflKigtJE">
     <property role="EcuMT" value="2135336638979628010" />
     <property role="TrG5h" value="Booklet" />
+    <property role="34LRSv" value="BOOKLET" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1QyflKigtJJ" role="1TKVEi">
       <property role="IQ2ns" value="2135336638979628015" />
@@ -469,10 +511,14 @@
       <property role="TrG5h" value="year" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnYeu" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1QyflKigtJZ">
     <property role="EcuMT" value="2135336638979628031" />
     <property role="TrG5h" value="Conference" />
+    <property role="34LRSv" value="CONFERENCE" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1QyflKigtK0" role="1TKVEi">
       <property role="IQ2ns" value="2135336638979628032" />
@@ -516,10 +562,14 @@
       <property role="TrG5h" value="address" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnYew" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1QyflKigtK_">
     <property role="EcuMT" value="2135336638979628069" />
     <property role="TrG5h" value="MasterThesis" />
+    <property role="34LRSv" value="MASTER_THESIS" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1QyflKigtKA" role="1TKVEi">
       <property role="IQ2ns" value="2135336638979628070" />
@@ -553,10 +603,14 @@
       <property role="TrG5h" value="month" />
       <ref role="AX2Wp" node="1C3R0FdcfNc" resolve="Month" />
     </node>
+    <node concept="PrWs8" id="1SVD7HlnYeE" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1QyflKigtKW">
     <property role="EcuMT" value="2135336638979628092" />
     <property role="TrG5h" value="Misc" />
+    <property role="34LRSv" value="MISC" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1QyflKigtKX" role="1TKVEi">
       <property role="IQ2ns" value="2135336638979628093" />
@@ -584,6 +638,32 @@
       <property role="IQ2nx" value="2135336638979628104" />
       <property role="TrG5h" value="note" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="1SVD7HlnYeG" role="PzmwI">
+      <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
+    <node concept="PrWs8" id="1SVD7Hlo2N0" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1SVD7HlnzbC">
+    <property role="EcuMT" value="2178515694383936232" />
+    <property role="TrG5h" value="Libraries" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1SVD7HlnXkN" role="1TKVEi">
+      <property role="IQ2ns" value="2178515694384043315" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1SVD7HlnXkG" resolve="ReferenceType" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1SVD7HlnXkG">
+    <property role="EcuMT" value="2178515694384043308" />
+    <property role="TrG5h" value="ReferenceType" />
+    <node concept="PrWs8" id="1SVD7HlnXkH" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
