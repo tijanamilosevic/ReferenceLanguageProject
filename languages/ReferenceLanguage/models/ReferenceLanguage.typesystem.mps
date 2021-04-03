@@ -236,5 +236,134 @@
       <ref role="1YaFvo" to="gu6h:1C3R0Fd7EH0" resolve="Author" />
     </node>
   </node>
+  <node concept="18kY7G" id="3bll3DtOJf4">
+    <property role="TrG5h" value="check_Book" />
+    <node concept="3clFbS" id="3bll3DtOJf5" role="18ibNy">
+      <node concept="3clFbJ" id="3bll3DtOJfb" role="3cqZAp">
+        <node concept="2OqwBi" id="3bll3DtOK7A" role="3clFbw">
+          <node concept="2OqwBi" id="3bll3DtOJpO" role="2Oq$k0">
+            <node concept="1YBJjd" id="3bll3DtOJfn" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOJf7" resolve="book" />
+            </node>
+            <node concept="3TrcHB" id="3bll3DtOJPi" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWypX" resolve="title" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="3bll3DtOKoA" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="3bll3DtOJfd" role="3clFbx">
+          <node concept="2MkqsV" id="3bll3DtOKqZ" role="3cqZAp">
+            <node concept="Xl_RD" id="3bll3DtOKrb" role="2MkJ7o">
+              <property role="Xl_RC" value="Title could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="3bll3DtOKse" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOJf7" resolve="book" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="3bll3DtOKxG" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="3bll3DtOJf7" role="1YuTPh">
+      <property role="TrG5h" value="book" />
+      <ref role="1YaFvo" to="gu6h:5dy$fAeWypU" resolve="Book" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3bll3DtOKVq">
+    <property role="TrG5h" value="check_Incollection" />
+    <node concept="3clFbS" id="3bll3DtOKVr" role="18ibNy">
+      <node concept="3clFbJ" id="3bll3DtOKVx" role="3cqZAp">
+        <node concept="2OqwBi" id="3bll3DtOLCB" role="3clFbw">
+          <node concept="2OqwBi" id="3bll3DtOL6a" role="2Oq$k0">
+            <node concept="1YBJjd" id="3bll3DtOKVH" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOKVt" resolve="incollection" />
+            </node>
+            <node concept="3TrcHB" id="3bll3DtOLfZ" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWyqw" resolve="title" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="3bll3DtOLIW" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="3bll3DtOKVz" role="3clFbx">
+          <node concept="2MkqsV" id="3bll3DtOLJc" role="3cqZAp">
+            <node concept="Xl_RD" id="3bll3DtOLJo" role="2MkJ7o">
+              <property role="Xl_RC" value="Title could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="3bll3DtOLJT" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOKVt" resolve="incollection" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3bll3DtOKVt" role="1YuTPh">
+      <property role="TrG5h" value="incollection" />
+      <ref role="1YaFvo" to="gu6h:5dy$fAeWyql" resolve="Incollection" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3bll3DtOLLg">
+    <property role="TrG5h" value="check_Manual" />
+    <node concept="3clFbS" id="3bll3DtOLLh" role="18ibNy">
+      <node concept="3clFbJ" id="3bll3DtOLLn" role="3cqZAp">
+        <node concept="2OqwBi" id="3bll3DtOMdD" role="3clFbw">
+          <node concept="2OqwBi" id="3bll3DtOLW0" role="2Oq$k0">
+            <node concept="1YBJjd" id="3bll3DtOLLz" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOLLj" resolve="manual" />
+            </node>
+            <node concept="3TrcHB" id="3bll3DtOM5P" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWyr6" resolve="title" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="3bll3DtOMkR" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="3bll3DtOLLp" role="3clFbx">
+          <node concept="2MkqsV" id="3bll3DtOMl5" role="3cqZAp">
+            <node concept="Xl_RD" id="3bll3DtOMlh" role="2MkJ7o">
+              <property role="Xl_RC" value="Title could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="3bll3DtOMlE" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOLLj" resolve="manual" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3bll3DtOLLj" role="1YuTPh">
+      <property role="TrG5h" value="manual" />
+      <ref role="1YaFvo" to="gu6h:5dy$fAeWyr3" resolve="Manual" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3bll3DtOMlY">
+    <property role="TrG5h" value="check_Proceedings" />
+    <node concept="3clFbS" id="3bll3DtOMlZ" role="18ibNy">
+      <node concept="3clFbJ" id="3bll3DtOMm5" role="3cqZAp">
+        <node concept="2OqwBi" id="3bll3DtOMMP" role="3clFbw">
+          <node concept="2OqwBi" id="3bll3DtOMwI" role="2Oq$k0">
+            <node concept="1YBJjd" id="3bll3DtOMmh" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOMm1" resolve="proceedings" />
+            </node>
+            <node concept="3TrcHB" id="3bll3DtOMF1" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWyrl" resolve="title" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="3bll3DtOMU3" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="3bll3DtOMm7" role="3clFbx">
+          <node concept="2MkqsV" id="3bll3DtOMUh" role="3cqZAp">
+            <node concept="Xl_RD" id="3bll3DtOMUt" role="2MkJ7o">
+              <property role="Xl_RC" value="Title could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="3bll3DtOMUJ" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOMm1" resolve="proceedings" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3bll3DtOMm1" role="1YuTPh">
+      <property role="TrG5h" value="proceedings" />
+      <ref role="1YaFvo" to="gu6h:5dy$fAeWyrk" resolve="Proceedings" />
+    </node>
+  </node>
 </model>
 

@@ -22,21 +22,29 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
       case 1:
         return Collections.<ConceptEditor>singletonList(new Author_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new Booklet_Editor());
+        return Collections.<ConceptEditor>singletonList(new Book_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new Conference_Editor());
+        return Collections.<ConceptEditor>singletonList(new Booklet_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new InBook_Editor());
+        return Collections.<ConceptEditor>singletonList(new Conference_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new InProceedings_Editor());
+        return Collections.<ConceptEditor>singletonList(new InBook_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new Libraries_Editor());
+        return Collections.<ConceptEditor>singletonList(new InProceedings_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new MasterThesis_Editor());
+        return Collections.<ConceptEditor>singletonList(new Incollection_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new Misc_Editor());
+        return Collections.<ConceptEditor>singletonList(new Libraries_Editor());
       case 9:
+        return Collections.<ConceptEditor>singletonList(new Manual_Editor());
+      case 10:
+        return Collections.<ConceptEditor>singletonList(new MasterThesis_Editor());
+      case 11:
+        return Collections.<ConceptEditor>singletonList(new Misc_Editor());
+      case 12:
         return Collections.<ConceptEditor>singletonList(new PhdThesis_Editor());
+      case 13:
+        return Collections.<ConceptEditor>singletonList(new Proceedings_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -44,5 +52,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
 
 
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fbfaL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbeaL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc62L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1e3ba47b555e32e8L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc25L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fca5L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fbfaL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef2267aL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbeaL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc62L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef22695L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1e3ba47b555e32e8L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef226c3L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc25L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fca5L), MetaIdFactory.conceptId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef226d4L)).seal();
 }
