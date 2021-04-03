@@ -478,6 +478,13 @@
     <node concept="PrWs8" id="1SVD7HlnYeK" role="PzmwI">
       <ref role="PrY4T" node="1SVD7HlnXkG" resolve="ReferenceType" />
     </node>
+    <node concept="1TJgyj" id="3bll3DtO1U3" role="1TKVEi">
+      <property role="IQ2ns" value="3662926481594523267" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="authors" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="1C3R0Fd7EH0" resolve="Author" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1QyflKigtJE">
     <property role="EcuMT" value="2135336638979628010" />
