@@ -18,6 +18,7 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -25,6 +26,14 @@
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1081506773034" name="jetbrains.mps.baseLanguage.structure.LessThanExpression" flags="nn" index="3eOVzh" />
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
@@ -49,6 +58,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -363,6 +373,442 @@
     <node concept="1YaCAy" id="3bll3DtOMm1" role="1YuTPh">
       <property role="TrG5h" value="proceedings" />
       <ref role="1YaFvo" to="gu6h:5dy$fAeWyrk" resolve="Proceedings" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1SVD7HlqK4T">
+    <property role="TrG5h" value="check_Article" />
+    <node concept="3clFbS" id="1SVD7HlqK4U" role="18ibNy">
+      <node concept="3clFbJ" id="1SVD7HlqK8I" role="3cqZAp">
+        <node concept="2OqwBi" id="1SVD7HlqKPO" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlqKjn" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlqK8U" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7HlqK4W" resolve="article" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlqKtc" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfJY" resolve="title" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7HlqLAi" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="1SVD7HlqK8K" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlqLAw" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlqLAG" role="2MkJ7o">
+              <property role="Xl_RC" value="Title could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlqLBx" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7HlqK4W" resolve="article" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlqLFn" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlqLFp" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlqMrd" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlqMrs" role="2MkJ7o">
+              <property role="Xl_RC" value="Journal could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlqMBT" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7HlqK4W" resolve="article" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1SVD7HlqMmN" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlqLQs" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlqLFZ" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7HlqK4W" resolve="article" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlqM0E" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfK1" resolve="journal" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7HlqMqZ" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlqMFT" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlqMFV" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlqQDi" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlqQDx" role="2MkJ7o">
+              <property role="Xl_RC" value="Year could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlqQEf" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7HlqK4W" resolve="article" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="1SVD7HlqPTz" role="3clFbw">
+          <node concept="3cmrfG" id="1SVD7HlqQwd" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="1SVD7HlqPLH" role="3uHU7B">
+            <node concept="1YBJjd" id="1SVD7HlqPLI" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7HlqK4W" resolve="article" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlqPLJ" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfK6" resolve="year" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1SVD7HlqK4W" role="1YuTPh">
+      <property role="TrG5h" value="article" />
+      <ref role="1YaFvo" to="gu6h:1C3R0FdcfJU" resolve="Article" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1SVD7Hlresp">
+    <property role="TrG5h" value="check_InBook" />
+    <node concept="3clFbS" id="1SVD7Hlresq" role="18ibNy">
+      <node concept="3clFbJ" id="1SVD7Hlresw" role="3cqZAp">
+        <node concept="2OqwBi" id="1SVD7Hlrfkk" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlreB9" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlresG" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7Hlress" resolve="inBook" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlreVD" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfKP" resolve="bookTitle" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7Hlrf_j" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="1SVD7Hlresy" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7Hlrf_x" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7Hlrf_H" role="2MkJ7o">
+              <property role="Xl_RC" value="Book title could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlrfAK" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7Hlress" resolve="inBook" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlrfCe" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlrfCg" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlrgyZ" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7Hlrgze" role="2MkJ7o">
+              <property role="Xl_RC" value="Title could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlrgzI" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7Hlress" resolve="inBook" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1SVD7HlrgmX" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlrfN4" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlrfCB" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7Hlress" resolve="inBook" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7Hlrg0u" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfKM" resolve="title" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7HlrgyL" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7Hlrg_m" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7Hlrg_o" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlrhBo" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlrhBB" role="2MkJ7o">
+              <property role="Xl_RC" value="Publisher could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlrhCz" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7Hlress" resolve="inBook" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1SVD7HlrhmK" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlrgKm" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7Hlrg_T" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7Hlress" resolve="inBook" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlrgY8" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfL1" resolve="publisher" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7HlrhBa" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlrhEl" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlrhEn" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7Hlrk7K" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7Hlrk7Z" role="2MkJ7o">
+              <property role="Xl_RC" value="Year could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7Hlrk8v" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7Hlress" resolve="inBook" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1SVD7HlrjOs" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlrhPv" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlrhF2" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7Hlress" resolve="inBook" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7Hlri2C" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfKU" resolve="year" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7Hlrk7y" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="1SVD7Hlrk9K" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="1SVD7Hlress" role="1YuTPh">
+      <property role="TrG5h" value="inBook" />
+      <ref role="1YaFvo" to="gu6h:1C3R0FdcfKI" resolve="InBook" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1SVD7HlrFzL">
+    <property role="TrG5h" value="check_InProceedings" />
+    <node concept="3clFbS" id="1SVD7HlrFzM" role="18ibNy">
+      <node concept="3clFbJ" id="1SVD7HlrFzS" role="3cqZAp">
+        <node concept="2OqwBi" id="1SVD7HlrGhs" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlrFIx" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlrF$4" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlrFSO" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfLA" resolve="title" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7HlrGwb" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="1SVD7HlrFzU" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlrGwp" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlrGw_" role="2MkJ7o">
+              <property role="Xl_RC" value="Title could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlrGx5" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlrGyz" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlrGy_" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlrHHE" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlrHHT" role="2MkJ7o">
+              <property role="Xl_RC" value="Book title could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlrHIi" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1SVD7HlrHqf" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlrGHp" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlrGyW" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlrGTK" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfLD" resolve="bookTitle" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7HlrHHs" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlrHJU" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlrHJW" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlrJPx" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlrJPK" role="2MkJ7o">
+              <property role="Xl_RC" value="Year could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlrJQ9" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="1SVD7HlrIXm" role="3clFbw">
+          <node concept="3cmrfG" id="1SVD7HlrJoR" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="1SVD7HlrHUU" role="3uHU7B">
+            <node concept="1YBJjd" id="1SVD7HlrHKt" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlrI88" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfLP" resolve="year" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlrJQS" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlrJQU" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlrLi4" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlrLij" role="2MkJ7o">
+              <property role="Xl_RC" value="Series could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlrLi_" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1SVD7HlrL0X" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlrK22" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlrJR_" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlrKEu" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfLI" resolve="series" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7HlrLhQ" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlrLsS" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlrLsU" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlrMJs" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlrMJF" role="2MkJ7o">
+              <property role="Xl_RC" value="Publisher could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlrMKp" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1SVD7HlrMx6" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlrLxM" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlrLtJ" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7HlrFzO" resolve="inProceedings" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlrMaB" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfM9" resolve="publisher" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7HlrMJe" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1SVD7HlrFzO" role="1YuTPh">
+      <property role="TrG5h" value="inProceedings" />
+      <ref role="1YaFvo" to="gu6h:1C3R0FdcfLy" resolve="InProceedings" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1SVD7Hlsb9f">
+    <property role="TrG5h" value="check_PhdThesis" />
+    <node concept="3clFbS" id="1SVD7Hlsb9g" role="18ibNy">
+      <node concept="3clFbJ" id="1SVD7Hlsb9m" role="3cqZAp">
+        <node concept="2OqwBi" id="1SVD7HlsbQs" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlsbjZ" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7Hlsb9y" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlsbtO" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfMD" resolve="title" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7Hlsc64" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="1SVD7Hlsb9o" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7Hlsc6i" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7Hlsc6u" role="2MkJ7o">
+              <property role="Xl_RC" value="Title could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7Hlsc6K" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7Hlsc8e" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7Hlsc8g" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlsdLb" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlsdLq" role="2MkJ7o">
+              <property role="Xl_RC" value="Year could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlsdMm" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="1SVD7HlsdlG" role="3clFbw">
+          <node concept="3cmrfG" id="1SVD7HlsdKO" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="1SVD7Hlscj4" role="3uHU7B">
+            <node concept="1YBJjd" id="1SVD7Hlsc8B" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7Hlscwu" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfMS" resolve="year" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlsdNY" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlsdO0" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlsfyK" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlsfyZ" role="2MkJ7o">
+              <property role="Xl_RC" value="Invalid year" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7Hlsfzo" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOVzh" id="1SVD7Hlsfsf" role="3clFbw">
+          <node concept="3cmrfG" id="1SVD7Hlsfsi" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="1SVD7HlsdYY" role="3uHU7B">
+            <node concept="1YBJjd" id="1SVD7HlsdOx" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlseB1" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfMS" resolve="year" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7Hlsf_a" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7Hlsf_c" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlsgKP" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlsgL4" role="2MkJ7o">
+              <property role="Xl_RC" value="Month could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7HlsgLt" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1SVD7Hlsgxs" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlsfKk" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7Hlsf_R" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7Hlsgoi" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfN1" resolve="month" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="1SVD7HlsgJ7" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1SVD7HlsgNp" role="3cqZAp">
+        <node concept="3clFbS" id="1SVD7HlsgNr" role="3clFbx">
+          <node concept="2MkqsV" id="1SVD7HlsimC" role="3cqZAp">
+            <node concept="Xl_RD" id="1SVD7HlsimR" role="2MkJ7o">
+              <property role="Xl_RC" value="School could not be empty" />
+            </node>
+            <node concept="1YBJjd" id="1SVD7Hlsin9" role="1urrMF">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1SVD7Hlsi54" role="3clFbw">
+          <node concept="2OqwBi" id="1SVD7HlsgYH" role="2Oq$k0">
+            <node concept="1YBJjd" id="1SVD7HlsgOg" role="2Oq$k0">
+              <ref role="1YBMHb" node="1SVD7Hlsb9i" resolve="phdThesis" />
+            </node>
+            <node concept="3TrcHB" id="1SVD7HlshI_" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1C3R0FdcfMG" resolve="school" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="1SVD7Hlsimq" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1SVD7Hlsb9i" role="1YuTPh">
+      <property role="TrG5h" value="phdThesis" />
+      <ref role="1YaFvo" to="gu6h:1C3R0FdcfM_" resolve="PhdThesis" />
     </node>
   </node>
 </model>
