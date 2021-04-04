@@ -8,8 +8,6 @@
   </languages>
   <imports>
     <import index="gu6h" ref="r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="tf3z" ref="r:bb5527fe-0d47-4eb7-b517-b5de340eea28(ReferenceLanguage.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -26,15 +24,9 @@
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
-      <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
-      <concept id="9122903797336200704" name="jetbrains.mps.lang.editor.structure.ApplyStyleClassCondition" flags="lg" index="1uO$qF">
-        <child id="9122903797336200706" name="query" index="1uO$qD" />
-      </concept>
-      <concept id="9122903797312246523" name="jetbrains.mps.lang.editor.structure.StyleReference" flags="ng" index="1wgc9g">
-        <reference id="9122903797312247166" name="style" index="1wgcnl" />
-      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -57,16 +49,12 @@
         <child id="1225900141900" name="modelAccessor" index="1HlULh" />
       </concept>
       <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
-      <concept id="1950447826681509042" name="jetbrains.mps.lang.editor.structure.ApplyStyleClass" flags="lg" index="3Xmtl4">
-        <child id="1950447826683828796" name="target" index="3XvnJa" />
-      </concept>
       <concept id="1198256887712" name="jetbrains.mps.lang.editor.structure.CellModel_Indent" flags="ng" index="3XFhqQ" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -74,12 +62,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
-        <child id="1068580123156" name="expression" index="3clFbG" />
-      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -89,7 +72,6 @@
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -98,9 +80,6 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
-      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
-        <reference id="1138056395725" name="property" index="3TsBF5" />
-      </concept>
     </language>
   </registry>
   <node concept="24kQdi" id="1SVD7Hloas2">
@@ -218,32 +197,8 @@
             <property role="3F0ifm" value="Title: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlohHw" role="3EZMnx">
+            <property role="1$x2rV" value="Enter article title" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfJY" resolve="title" />
-            <node concept="1uO$qF" id="1SVD7HlzBV5" role="3F10Kt">
-              <node concept="3nzxsE" id="1SVD7HlzBV7" role="1uO$qD">
-                <node concept="3clFbS" id="1SVD7HlzBV9" role="2VODD2">
-                  <node concept="3clFbF" id="1SVD7HlzBZf" role="3cqZAp">
-                    <node concept="2OqwBi" id="1SVD7HlzE9A" role="3clFbG">
-                      <node concept="2OqwBi" id="1SVD7HlzCdr" role="2Oq$k0">
-                        <node concept="pncrf" id="1SVD7HlzBZe" role="2Oq$k0" />
-                        <node concept="3TrcHB" id="1SVD7HlzCtL" role="2OqNvi">
-                          <ref role="3TsBF5" to="gu6h:1C3R0FdcfJY" resolve="title" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="1SVD7HlzExD" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.equalsIgnoreCase(java.lang.String)" resolve="equalsIgnoreCase" />
-                        <node concept="Xl_RD" id="1SVD7HlzEAi" role="37wK5m">
-                          <property role="Xl_RC" value="Enter article title" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="1wgc9g" id="1SVD7Hl$t8K" role="3XvnJa">
-                <ref role="1wgcnl" to="tpco:3VARyd8XcQs" resolve="Comment" />
-              </node>
-            </node>
           </node>
         </node>
         <node concept="3EZMnI" id="1SVD7HlohHF" role="3EZMnx">
@@ -254,6 +209,7 @@
           </node>
           <node concept="l2Vlx" id="1SVD7HlohHK" role="2iSdaV" />
           <node concept="3F0A7n" id="1SVD7HlohIA" role="3EZMnx">
+            <property role="1$x2rV" value="Enter article journal" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfK1" resolve="journal" />
           </node>
         </node>
@@ -264,6 +220,7 @@
             <property role="3F0ifm" value="Year: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlohJq" role="3EZMnx">
+            <property role="1$x2rV" value="Enter article year" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfK6" resolve="year" />
           </node>
           <node concept="l2Vlx" id="1SVD7HlohJ1" role="2iSdaV" />
@@ -317,7 +274,7 @@
       <node concept="3EZMnI" id="1SVD7Hlvx4o" role="3EZMnx">
         <node concept="VPM3Z" id="1SVD7Hlvx4q" role="3F10Kt" />
         <node concept="3F0ifn" id="1SVD7Hlvx4s" role="3EZMnx">
-          <property role="3F0ifm" value="LIBRARIES" />
+          <property role="3F0ifm" value="LIBRARY" />
         </node>
         <node concept="l2Vlx" id="1SVD7Hlvx4t" role="2iSdaV" />
       </node>
@@ -407,6 +364,7 @@
             <property role="3F0ifm" value="Title: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlpNlw" role="3EZMnx">
+            <property role="1$x2rV" value="Enter InBook title" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfKM" resolve="title" />
           </node>
         </node>
@@ -418,6 +376,7 @@
           </node>
           <node concept="l2Vlx" id="1SVD7HlpNl_" role="2iSdaV" />
           <node concept="3F0A7n" id="1SVD7HlpNlA" role="3EZMnx">
+            <property role="1$x2rV" value="Enter InBook book title" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfKP" resolve="bookTitle" />
           </node>
         </node>
@@ -428,6 +387,7 @@
             <property role="3F0ifm" value="Year: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlpNlF" role="3EZMnx">
+            <property role="1$x2rV" value="Enter InBook year" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfKU" resolve="year" />
           </node>
           <node concept="l2Vlx" id="1SVD7HlpNlG" role="2iSdaV" />
@@ -439,6 +399,7 @@
             <property role="3F0ifm" value="Publisher: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlpNlL" role="3EZMnx">
+            <property role="1$x2rV" value="Enter InBook publisher" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfL1" resolve="publisher" />
           </node>
           <node concept="l2Vlx" id="1SVD7HlpNlM" role="2iSdaV" />
@@ -485,6 +446,7 @@
           <property role="3F0ifm" value="First name: " />
         </node>
         <node concept="3F0A7n" id="1SVD7Hlp4jZ" role="3EZMnx">
+          <property role="1$x2rV" value="Enter author first name" />
           <ref role="1NtTu8" to="gu6h:1C3R0FdcfPN" resolve="firstName" />
         </node>
         <node concept="l2Vlx" id="1SVD7Hlp4jQ" role="2iSdaV" />
@@ -497,6 +459,7 @@
           <property role="3F0ifm" value="Middle name: " />
         </node>
         <node concept="3F0A7n" id="1SVD7Hlp4kt" role="3EZMnx">
+          <property role="39s7Ar" value="true" />
           <ref role="1NtTu8" to="gu6h:1C3R0FdcfPQ" resolve="middleName" />
         </node>
         <node concept="l2Vlx" id="1SVD7Hlp4kf" role="2iSdaV" />
@@ -509,6 +472,7 @@
           <property role="3F0ifm" value="Last name: " />
         </node>
         <node concept="3F0A7n" id="1SVD7Hlp4l8" role="3EZMnx">
+          <property role="1$x2rV" value="Enter author last name" />
           <ref role="1NtTu8" to="gu6h:1C3R0FdcfPV" resolve="surname" />
         </node>
         <node concept="l2Vlx" id="1SVD7Hlp4kM" role="2iSdaV" />
@@ -552,6 +516,7 @@
             <property role="3F0ifm" value="Title: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlpTPp" role="3EZMnx">
+            <property role="1$x2rV" value="Enter InProceedings title" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfLA" resolve="title" />
           </node>
         </node>
@@ -563,6 +528,7 @@
           </node>
           <node concept="l2Vlx" id="1SVD7HlpTPu" role="2iSdaV" />
           <node concept="3F0A7n" id="1SVD7HlpTPv" role="3EZMnx">
+            <property role="1$x2rV" value="Enter InProceedings book title" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfLD" resolve="bookTitle" />
           </node>
         </node>
@@ -573,6 +539,7 @@
             <property role="3F0ifm" value="Year: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlpTP$" role="3EZMnx">
+            <property role="1$x2rV" value="Enter InProceedings year" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfLP" resolve="year" />
           </node>
           <node concept="l2Vlx" id="1SVD7HlpTP_" role="2iSdaV" />
@@ -584,6 +551,7 @@
             <property role="3F0ifm" value="Series: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlpTR$" role="3EZMnx">
+            <property role="1$x2rV" value="Enter InProceedings series" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfLI" resolve="series" />
           </node>
           <node concept="l2Vlx" id="1SVD7HlpTR_" role="2iSdaV" />
@@ -595,6 +563,7 @@
             <property role="3F0ifm" value="Publisher: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlpTPE" role="3EZMnx">
+            <property role="1$x2rV" value="Enter InProceedings publisher" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfM9" resolve="publisher" />
           </node>
           <node concept="l2Vlx" id="1SVD7HlpTPF" role="2iSdaV" />
@@ -669,6 +638,7 @@
             <property role="3F0ifm" value="Title: " />
           </node>
           <node concept="3F0A7n" id="1SVD7Hlq2vG" role="3EZMnx">
+            <property role="1$x2rV" value="Enter Phd Thesis title" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfMD" resolve="title" />
           </node>
         </node>
@@ -679,6 +649,7 @@
             <property role="3F0ifm" value="Year: " />
           </node>
           <node concept="3F0A7n" id="1SVD7Hlq2vR" role="3EZMnx">
+            <property role="1$x2rV" value="Enter Phd Thesis year" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfMS" resolve="year" />
           </node>
           <node concept="l2Vlx" id="1SVD7Hlq2vS" role="2iSdaV" />
@@ -702,6 +673,7 @@
             <property role="3F0ifm" value="School: " />
           </node>
           <node concept="3F0A7n" id="1SVD7Hlq2wf" role="3EZMnx">
+            <property role="1$x2rV" value="Enter Phd Thesis school" />
             <ref role="1NtTu8" to="gu6h:1C3R0FdcfMG" resolve="school" />
           </node>
           <node concept="l2Vlx" id="1SVD7Hlq2wg" role="2iSdaV" />

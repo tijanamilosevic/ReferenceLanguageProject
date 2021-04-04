@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-d7724642pmcqaodo7jzje9zatlceng9">
+<product version="3" modelHash="-2xegcpgbs5fkei3vmpmyn8f30s9laqv">
   <files names="TypesystemDescriptor.java:check_Article_NonTypesystemRule.java:check_Author_NonTypesystemRule.java:check_Book_NonTypesystemRule.java:check_Booklet_NonTypesystemRule.java:check_Conference_NonTypesystemRule.java:check_InBook_NonTypesystemRule.java:check_InProceedings_NonTypesystemRule.java:check_Incollection_NonTypesystemRule.java:check_Manual_NonTypesystemRule.java:check_MasterThesis_NonTypesystemRule.java:check_PhdThesis_NonTypesystemRule.java:check_Proceedings_NonTypesystemRule.java" />
 </product>
 

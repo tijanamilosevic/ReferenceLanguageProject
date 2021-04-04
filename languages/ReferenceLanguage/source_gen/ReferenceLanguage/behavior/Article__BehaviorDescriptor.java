@@ -10,11 +10,9 @@ import jetbrains.mps.core.aspects.behaviour.api.SMethod;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.mps.openapi.model.SNode;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
-import org.jetbrains.mps.openapi.language.SProperty;
 
 public final class Article__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fbfaL, "ReferenceLanguage.structure.Article");
@@ -23,7 +21,6 @@ public final class Article__BehaviorDescriptor extends BaseBHDescriptor {
   private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList();
 
   private static void ___init___(@NotNull SNode __thisNode__) {
-    SPropertyOperations.assign(__thisNode__, PROPS.title$67zM, "Enter article title");
   }
 
 
@@ -69,9 +66,5 @@ public final class Article__BehaviorDescriptor extends BaseBHDescriptor {
   @Override
   public SAbstractConcept getConcept() {
     return CONCEPT;
-  }
-
-  private static final class PROPS {
-    /*package*/ static final SProperty title$67zM = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fbfaL, 0x1a03dc0acd30fbfeL, "title");
   }
 }

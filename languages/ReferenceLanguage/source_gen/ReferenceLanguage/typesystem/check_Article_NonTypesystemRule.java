@@ -20,7 +20,7 @@ public class check_Article_NonTypesystemRule extends AbstractNonTypesystemRule_R
   public check_Article_NonTypesystemRule() {
   }
   public void applyRule(final SNode article, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
-    if (isEmptyString(SPropertyOperations.getString(article, PROPS.title$67zM)) || (SPropertyOperations.getString(article, PROPS.title$67zM).equalsIgnoreCase("Enter article title"))) {
+    if (isEmptyString(SPropertyOperations.getString(article, PROPS.title$67zM))) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(article, "Title could not be empty!", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2178515694384781728", null, errorTarget);

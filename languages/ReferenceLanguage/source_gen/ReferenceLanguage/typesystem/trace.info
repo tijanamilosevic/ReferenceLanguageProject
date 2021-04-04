@@ -44,7 +44,7 @@
       <node id="2178515694384775481" at="45,0,48,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="2178515694384775481" at="48,0,51,0" concept="4" trace="overrides#()Z" />
       <node id="2178515694386884425" at="51,0,54,0" concept="9" trace="isEmptyString#(Ljava/lang/String;)Z" />
-      <node id="2178515694384781728" at="23,184,27,7" concept="0" />
+      <node id="2178515694384781728" at="23,82,27,7" concept="0" />
       <node id="2178515694384785101" at="29,84,33,7" concept="0" />
       <node id="2178515694384802386" at="35,72,39,7" concept="0" />
       <node id="2178515694384775726" at="22,120,28,5" concept="3" />
@@ -77,7 +77,7 @@
       <scope id="2178515694386884425" at="51,0,54,0">
         <var name="str" id="2178515694386884425" />
       </scope>
-      <scope id="2178515694384775728" at="23,184,27,7" />
+      <scope id="2178515694384775728" at="23,82,27,7" />
       <scope id="2178515694384782041" at="29,84,33,7" />
       <scope id="2178515694384786171" at="35,72,39,7" />
       <scope id="2178515694384775482" at="22,120,40,5" />
