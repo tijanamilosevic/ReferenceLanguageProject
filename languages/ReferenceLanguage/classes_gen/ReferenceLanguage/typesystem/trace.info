@@ -34,7 +34,7 @@
       <node id="2178515694384775481" at="42,50,43,31" concept="6" />
       <node id="2178515694384775481" at="45,68,46,102" concept="6" />
       <node id="2178515694384775481" at="48,30,49,17" concept="6" />
-      <node id="2178515694384781714" at="51,52,52,40" concept="6" />
+      <node id="2178515694386884425" at="51,52,52,40" concept="6" />
       <node id="2178515694384775481" at="56,0,57,0" concept="8" trace="title$67zM" />
       <node id="2178515694384775481" at="57,0,58,0" concept="8" trace="journal$68gP" />
       <node id="2178515694384775481" at="58,0,59,0" concept="8" trace="year$6enf" />
@@ -43,8 +43,8 @@
       <node id="2178515694384775481" at="42,0,45,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
       <node id="2178515694384775481" at="45,0,48,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
       <node id="2178515694384775481" at="48,0,51,0" concept="4" trace="overrides#()Z" />
-      <node id="2178515694384781714" at="51,0,54,0" concept="9" trace="isEmptyString#(Ljava/lang/String;)Z" />
-      <node id="2178515694384781728" at="23,82,27,7" concept="0" />
+      <node id="2178515694386884425" at="51,0,54,0" concept="9" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="2178515694384781728" at="23,184,27,7" concept="0" />
       <node id="2178515694384785101" at="29,84,33,7" concept="0" />
       <node id="2178515694384802386" at="35,72,39,7" concept="0" />
       <node id="2178515694384775726" at="22,120,28,5" concept="3" />
@@ -55,7 +55,7 @@
       <scope id="2178515694384775481" at="42,50,43,31" />
       <scope id="2178515694384775481" at="45,68,46,102" />
       <scope id="2178515694384775481" at="48,30,49,17" />
-      <scope id="2178515694384781714" at="51,52,52,40" />
+      <scope id="2178515694386884425" at="51,52,52,40" />
       <scope id="2178515694384775481" at="20,0,22,0" />
       <scope id="2178515694384781728" at="24,7,26,234">
         <var name="_reporter_2309309498" id="2178515694384781728" />
@@ -74,10 +74,10 @@
         <var name="argument" id="2178515694384775481" />
       </scope>
       <scope id="2178515694384775481" at="48,0,51,0" />
-      <scope id="2178515694384781714" at="51,0,54,0">
-        <var name="str" id="2178515694384781714" />
+      <scope id="2178515694386884425" at="51,0,54,0">
+        <var name="str" id="2178515694386884425" />
       </scope>
-      <scope id="2178515694384775728" at="23,82,27,7" />
+      <scope id="2178515694384775728" at="23,184,27,7" />
       <scope id="2178515694384782041" at="29,84,33,7" />
       <scope id="2178515694384786171" at="35,72,39,7" />
       <scope id="2178515694384775482" at="22,120,40,5" />
