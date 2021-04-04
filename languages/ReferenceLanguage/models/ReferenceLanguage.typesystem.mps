@@ -120,6 +120,57 @@
         </node>
       </node>
       <node concept="3clFbH" id="3nPg1cHkqSK" role="3cqZAp" />
+      <node concept="3clFbJ" id="25ZJgfW98YY" role="3cqZAp">
+        <node concept="3clFbS" id="25ZJgfW98Z0" role="3clFbx">
+          <node concept="2MkqsV" id="25ZJgfW9aCJ" role="3cqZAp">
+            <node concept="Xl_RD" id="25ZJgfW9aCZ" role="2MkJ7o">
+              <property role="Xl_RC" value="Year could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="25ZJgfW9aDv" role="1urrMF">
+              <ref role="1YBMHb" node="3nPg1cHkkn1" resolve="masterThesis" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="25ZJgfW9acO" role="3clFbw">
+          <node concept="3cmrfG" id="25ZJgfW9aCl" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="25ZJgfW99a0" role="3uHU7B">
+            <node concept="1YBJjd" id="25ZJgfW98Zz" role="2Oq$k0">
+              <ref role="1YBMHb" node="3nPg1cHkkn1" resolve="masterThesis" />
+            </node>
+            <node concept="3TrcHB" id="25ZJgfW99nA" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1QyflKigtKH" resolve="year" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="25ZJgfW9aDK" role="3cqZAp" />
+      <node concept="3clFbJ" id="25ZJgfW9aEQ" role="3cqZAp">
+        <node concept="3clFbS" id="25ZJgfW9aES" role="3clFbx">
+          <node concept="2MkqsV" id="25ZJgfW9cw6" role="3cqZAp">
+            <node concept="Xl_RD" id="25ZJgfW9cwn" role="2MkJ7o">
+              <property role="Xl_RC" value="Year can not be negative number!" />
+            </node>
+            <node concept="1YBJjd" id="25ZJgfW9cxq" role="1urrMF">
+              <ref role="1YBMHb" node="3nPg1cHkkn1" resolve="masterThesis" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOVzh" id="25ZJgfW9cnp" role="3clFbw">
+          <node concept="3cmrfG" id="25ZJgfW9cp9" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="25ZJgfW9aQ3" role="3uHU7B">
+            <node concept="1YBJjd" id="25ZJgfW9aFA" role="2Oq$k0">
+              <ref role="1YBMHb" node="3nPg1cHkkn1" resolve="masterThesis" />
+            </node>
+            <node concept="3TrcHB" id="25ZJgfW9bui" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1QyflKigtKH" resolve="year" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="3nPg1cHkkn1" role="1YuTPh">
       <property role="TrG5h" value="masterThesis" />
@@ -180,6 +231,31 @@
             </node>
             <node concept="1YBJjd" id="3nPg1cHloeQ" role="1urrMF">
               <ref role="1YBMHb" node="3nPg1cHlc8m" resolve="conference" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="25ZJgfW9PWJ" role="3cqZAp">
+        <node concept="3clFbS" id="25ZJgfW9PWL" role="3clFbx">
+          <node concept="2MkqsV" id="25ZJgfW9Rbj" role="3cqZAp">
+            <node concept="Xl_RD" id="25ZJgfW9Rbz" role="2MkJ7o">
+              <property role="Xl_RC" value="Year can not be negative number!" />
+            </node>
+            <node concept="1YBJjd" id="25ZJgfW9Rco" role="1urrMF">
+              <ref role="1YBMHb" node="3nPg1cHlc8m" resolve="conference" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOVzh" id="25ZJgfW9Ra0" role="3clFbw">
+          <node concept="3cmrfG" id="25ZJgfW9RaS" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="25ZJgfW9Q7_" role="3uHU7B">
+            <node concept="1YBJjd" id="25ZJgfW9PX8" role="2Oq$k0">
+              <ref role="1YBMHb" node="3nPg1cHlc8m" resolve="conference" />
+            </node>
+            <node concept="3TrcHB" id="25ZJgfW9QkM" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:1QyflKigtKb" resolve="year" />
             </node>
           </node>
         </node>

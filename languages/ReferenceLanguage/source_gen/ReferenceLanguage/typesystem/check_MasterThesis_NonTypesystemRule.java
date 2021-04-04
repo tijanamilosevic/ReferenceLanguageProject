@@ -34,6 +34,19 @@ public class check_MasterThesis_NonTypesystemRule extends AbstractNonTypesystemR
       }
     }
 
+    if (SPropertyOperations.getInteger(masterThesis, PROPS.year$lXfb) == 0) {
+      {
+        final MessageTarget errorTarget = new NodeMessageTarget();
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(masterThesis, "Year could not be empty!", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2413855750106688047", null, errorTarget);
+      }
+    }
+
+    if (SPropertyOperations.getInteger(masterThesis, PROPS.year$lXfb) < 0) {
+      {
+        final MessageTarget errorTarget = new NodeMessageTarget();
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(masterThesis, "Year can not be negative number!", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2413855750106695686", null, errorTarget);
+      }
+    }
   }
   public SAbstractConcept getApplicableConcept() {
     return CONCEPTS.MasterThesis$4$;
@@ -51,6 +64,7 @@ public class check_MasterThesis_NonTypesystemRule extends AbstractNonTypesystemR
   private static final class PROPS {
     /*package*/ static final SProperty title$lW46 = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc25L, 0x1da23d5c1241dc28L, "title");
     /*package*/ static final SProperty school$lWy8 = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc25L, 0x1da23d5c1241dc2aL, "school");
+    /*package*/ static final SProperty year$lXfb = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc25L, 0x1da23d5c1241dc2dL, "year");
   }
 
   private static final class CONCEPTS {

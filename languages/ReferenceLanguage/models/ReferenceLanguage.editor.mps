@@ -62,7 +62,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD" />
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -117,6 +119,7 @@
             <property role="3F0ifm" value="Title:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPaY" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKZ" resolve="title" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPaw" role="2iSdaV" />
@@ -128,6 +131,7 @@
             <property role="3F0ifm" value="How is published:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPbY" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtL1" resolve="howpublshed" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPbq" role="2iSdaV" />
@@ -139,6 +143,7 @@
             <property role="3F0ifm" value="Year:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPda" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtL4" resolve="year" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPcw" role="2iSdaV" />
@@ -150,6 +155,7 @@
             <property role="3F0ifm" value="Note:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPeE" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtL8" resolve="note" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPdU" role="2iSdaV" />
@@ -288,12 +294,22 @@
             <node concept="3TQlhw" id="1SVD7HltTyV" role="1Hhtcw">
               <node concept="3clFbS" id="1SVD7HltTyX" role="2VODD2">
                 <node concept="3cpWs6" id="1SVD7HltTB$" role="3cqZAp">
-                  <node concept="3cpWs3" id="1SVD7HltUU4" role="3cqZAk">
-                    <node concept="Xl_RD" id="1SVD7HltUU8" role="3uHU7w" />
-                    <node concept="2OqwBi" id="1SVD7HltTRS" role="3uHU7B">
-                      <node concept="pncrf" id="1SVD7HltTGf" role="2Oq$k0" />
-                      <node concept="2qgKlT" id="1SVD7HltU1k" role="2OqNvi">
-                        <ref role="37wK5l" to="tf3z:1SVD7HltPDO" resolve="getNuberOfReferences" />
+                  <node concept="3cpWs3" id="25ZJgfWbnAR" role="3cqZAk">
+                    <node concept="2OqwBi" id="25ZJgfWbo7l" role="3uHU7w">
+                      <node concept="pncrf" id="25ZJgfWbnBR" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="25ZJgfWbosz" role="2OqNvi">
+                        <ref role="37wK5l" to="tf3z:25ZJgfWb4k$" resolve="getNumberOfBooks" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="1SVD7HltUU4" role="3uHU7B">
+                      <node concept="2OqwBi" id="1SVD7HltTRS" role="3uHU7B">
+                        <node concept="pncrf" id="1SVD7HltTGf" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="1SVD7HltU1k" role="2OqNvi">
+                          <ref role="37wK5l" to="tf3z:1SVD7HltPDO" resolve="getNuberOfReferences" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="1SVD7HltUU8" role="3uHU7w">
+                        <property role="Xl_RC" value="," />
                       </node>
                     </node>
                   </node>
@@ -729,6 +745,7 @@
             <property role="3F0ifm" value="Title:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPie" role="3EZMnx">
+            <property role="1$x2rV" value="Enter master thesis title" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKC" resolve="title" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPhO" role="2iSdaV" />
@@ -740,6 +757,7 @@
             <property role="3F0ifm" value="School:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPje" role="3EZMnx">
+            <property role="1$x2rV" value="Enter school" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKE" resolve="school" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPiI" role="2iSdaV" />
@@ -751,6 +769,7 @@
             <property role="3F0ifm" value="Year:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPky" role="3EZMnx">
+            <property role="1$x2rV" value="Enter year" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKH" resolve="year" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPjW" role="2iSdaV" />
@@ -762,6 +781,7 @@
             <property role="3F0ifm" value="Address:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPlU" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKL" resolve="address" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPle" role="2iSdaV" />
@@ -773,6 +793,7 @@
             <property role="3F0ifm" value="Month:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPoi" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKQ" resolve="month" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPnw" role="2iSdaV" />
@@ -822,6 +843,7 @@
             <property role="3F0ifm" value="Title:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPs8" role="3EZMnx">
+            <property role="1$x2rV" value="Enter conference title" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtK2" resolve="title" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPrE" role="2iSdaV" />
@@ -834,6 +856,7 @@
             <property role="3F0ifm" value="Book title:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPtl" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtK4" resolve="bookTitle" />
           </node>
         </node>
@@ -844,6 +867,7 @@
             <property role="3F0ifm" value="Year:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPux" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKb" resolve="year" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPtR" role="2iSdaV" />
@@ -855,6 +879,7 @@
             <property role="3F0ifm" value="Publisher:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPvT" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKm" resolve="publisher" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPv9" role="2iSdaV" />
@@ -866,6 +891,7 @@
             <property role="3F0ifm" value="Address:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPxt" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKt" resolve="address" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPwB" role="2iSdaV" />
@@ -877,6 +903,7 @@
             <property role="3F0ifm" value="Pages:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPzd" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtKg" resolve="pages" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPyh" role="2iSdaV" />
@@ -927,6 +954,7 @@
             <property role="3F0ifm" value="Title:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPAX" role="3EZMnx">
+            <property role="1$x2rV" value="Enter booklet title" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtJL" resolve="title" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPAv" role="2iSdaV" />
@@ -938,6 +966,7 @@
             <property role="3F0ifm" value="How is published:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPBX" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtJN" resolve="howpublished" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPBp" role="2iSdaV" />
@@ -949,6 +978,7 @@
             <property role="3F0ifm" value="Month:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPD9" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtJQ" resolve="month" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPCv" role="2iSdaV" />
@@ -960,6 +990,7 @@
             <property role="3F0ifm" value="Year:" />
           </node>
           <node concept="3F0A7n" id="3nPg1cHhPEx" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:1QyflKigtJU" resolve="year" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPDL" role="2iSdaV" />
