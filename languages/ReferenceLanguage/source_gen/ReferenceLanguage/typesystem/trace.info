@@ -290,40 +290,35 @@
       <node id="2178515694385159243" at="31,66,32,234" concept="5" />
       <node id="2178515694385166512" at="36,7,37,66" concept="5" />
       <node id="2178515694385166512" at="37,66,38,223" concept="5" />
-      <node id="2178515694385171509" at="42,7,43,66" concept="5" />
-      <node id="2178515694385171509" at="43,66,44,235" concept="5" />
-      <node id="2178515694385178024" at="48,7,49,66" concept="5" />
-      <node id="2178515694385178024" at="49,66,50,236" concept="5" />
-      <node id="2178515694385148495" at="54,50,55,33" concept="6" />
-      <node id="2178515694385148495" at="57,68,58,102" concept="6" />
-      <node id="2178515694385148495" at="60,30,61,17" concept="6" />
-      <node id="2178515694385152388" at="63,52,64,40" concept="6" />
-      <node id="2178515694385148495" at="68,0,69,0" concept="8" trace="title$aE1B" />
-      <node id="2178515694385148495" at="69,0,70,0" concept="8" trace="year$aMub" />
-      <node id="2178515694385148495" at="70,0,71,0" concept="8" trace="month$aTwD" />
-      <node id="2178515694385148495" at="71,0,72,0" concept="8" trace="school$aEIE" />
-      <node id="2178515694385148495" at="75,0,76,0" concept="8" trace="PhdThesis$w1" />
+      <node id="2178515694385178024" at="42,7,43,66" concept="5" />
+      <node id="2178515694385178024" at="43,66,44,236" concept="5" />
+      <node id="2178515694385148495" at="48,50,49,33" concept="6" />
+      <node id="2178515694385148495" at="51,68,52,102" concept="6" />
+      <node id="2178515694385148495" at="54,30,55,17" concept="6" />
+      <node id="2178515694385152388" at="57,52,58,40" concept="6" />
+      <node id="2178515694385148495" at="62,0,63,0" concept="8" trace="title$aE1B" />
+      <node id="2178515694385148495" at="63,0,64,0" concept="8" trace="year$aMub" />
+      <node id="2178515694385148495" at="64,0,65,0" concept="8" trace="school$aEIE" />
+      <node id="2178515694385148495" at="68,0,69,0" concept="8" trace="PhdThesis$w1" />
       <node id="2178515694385148495" at="20,0,22,0" concept="1" trace="check_PhdThesis_NonTypesystemRule#()V" />
-      <node id="2178515694385148495" at="54,0,57,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
-      <node id="2178515694385148495" at="57,0,60,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
-      <node id="2178515694385148495" at="60,0,63,0" concept="4" trace="overrides#()Z" />
-      <node id="2178515694385152388" at="63,0,66,0" concept="9" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="2178515694385148495" at="48,0,51,0" concept="4" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="2178515694385148495" at="51,0,54,0" concept="4" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="2178515694385148495" at="54,0,57,0" concept="4" trace="overrides#()Z" />
+      <node id="2178515694385152388" at="57,0,60,0" concept="9" trace="isEmptyString#(Ljava/lang/String;)Z" />
       <node id="2178515694385152402" at="23,84,27,7" concept="0" />
       <node id="2178515694385159243" at="29,74,33,7" concept="0" />
       <node id="2178515694385166512" at="35,73,39,7" concept="0" />
-      <node id="2178515694385171509" at="41,77,45,7" concept="0" />
-      <node id="2178515694385178024" at="47,85,51,7" concept="0" />
+      <node id="2178515694385178024" at="41,85,45,7" concept="0" />
       <node id="2178515694385148502" at="22,122,28,5" concept="3" />
       <node id="2178515694385152526" at="28,5,34,5" concept="3" />
       <node id="2178515694385159422" at="34,5,40,5" concept="3" />
-      <node id="2178515694385166666" at="40,5,46,5" concept="3" />
-      <node id="2178515694385171673" at="46,5,52,5" concept="3" />
-      <node id="2178515694385148495" at="22,0,54,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <node id="2178515694385171673" at="40,5,46,5" concept="3" />
+      <node id="2178515694385148495" at="22,0,48,0" concept="4" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
       <scope id="2178515694385148495" at="20,46,20,46" />
-      <scope id="2178515694385148495" at="54,50,55,33" />
-      <scope id="2178515694385148495" at="57,68,58,102" />
-      <scope id="2178515694385148495" at="60,30,61,17" />
-      <scope id="2178515694385152388" at="63,52,64,40" />
+      <scope id="2178515694385148495" at="48,50,49,33" />
+      <scope id="2178515694385148495" at="51,68,52,102" />
+      <scope id="2178515694385148495" at="54,30,55,17" />
+      <scope id="2178515694385152388" at="57,52,58,40" />
       <scope id="2178515694385148495" at="20,0,22,0" />
       <scope id="2178515694385152402" at="24,7,26,235">
         <var name="_reporter_2309309498" id="2178515694385152402" />
@@ -337,36 +332,31 @@
         <var name="_reporter_2309309498" id="2178515694385166512" />
         <var name="errorTarget" id="2178515694385166512" />
       </scope>
-      <scope id="2178515694385171509" at="42,7,44,235">
-        <var name="_reporter_2309309498" id="2178515694385171509" />
-        <var name="errorTarget" id="2178515694385171509" />
-      </scope>
-      <scope id="2178515694385178024" at="48,7,50,236">
+      <scope id="2178515694385178024" at="42,7,44,236">
         <var name="_reporter_2309309498" id="2178515694385178024" />
         <var name="errorTarget" id="2178515694385178024" />
       </scope>
-      <scope id="2178515694385148495" at="54,0,57,0" />
-      <scope id="2178515694385148495" at="57,0,60,0">
+      <scope id="2178515694385148495" at="48,0,51,0" />
+      <scope id="2178515694385148495" at="51,0,54,0">
         <var name="argument" id="2178515694385148495" />
       </scope>
-      <scope id="2178515694385148495" at="60,0,63,0" />
-      <scope id="2178515694385152388" at="63,0,66,0">
+      <scope id="2178515694385148495" at="54,0,57,0" />
+      <scope id="2178515694385152388" at="57,0,60,0">
         <var name="str" id="2178515694385152388" />
       </scope>
       <scope id="2178515694385148504" at="23,84,27,7" />
       <scope id="2178515694385152528" at="29,74,33,7" />
       <scope id="2178515694385159424" at="35,73,39,7" />
-      <scope id="2178515694385166668" at="41,77,45,7" />
-      <scope id="2178515694385171675" at="47,85,51,7" />
-      <scope id="2178515694385148496" at="22,122,52,5" />
-      <scope id="2178515694385148495" at="22,0,54,0">
+      <scope id="2178515694385171675" at="41,85,45,7" />
+      <scope id="2178515694385148496" at="22,122,46,5" />
+      <scope id="2178515694385148495" at="22,0,48,0">
         <var name="phdThesis" id="2178515694385148495" />
         <var name="status" id="2178515694385148495" />
         <var name="typeCheckingContext" id="2178515694385148495" />
       </scope>
-      <unit id="2178515694385148495" at="74,0,77,0" name="ReferenceLanguage.typesystem.check_PhdThesis_NonTypesystemRule$CONCEPTS" />
-      <unit id="2178515694385148495" at="67,0,73,0" name="ReferenceLanguage.typesystem.check_PhdThesis_NonTypesystemRule$PROPS" />
-      <unit id="2178515694385148495" at="19,0,78,0" name="ReferenceLanguage.typesystem.check_PhdThesis_NonTypesystemRule" />
+      <unit id="2178515694385148495" at="67,0,70,0" name="ReferenceLanguage.typesystem.check_PhdThesis_NonTypesystemRule$CONCEPTS" />
+      <unit id="2178515694385148495" at="61,0,66,0" name="ReferenceLanguage.typesystem.check_PhdThesis_NonTypesystemRule$PROPS" />
+      <unit id="2178515694385148495" at="19,0,71,0" name="ReferenceLanguage.typesystem.check_PhdThesis_NonTypesystemRule" />
     </file>
   </root>
   <root nodeRef="r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)/3662926481594708932">

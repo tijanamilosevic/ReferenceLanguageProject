@@ -101,7 +101,7 @@ public final class Libraries__BehaviorDescriptor extends BaseBHDescriptor {
       ref += " [Books:" + book + "]";
     }
     if (booklet > 0) {
-      ref += " Booklets:" + booklet + "]";
+      ref += " [Booklets:" + booklet + "]";
     }
     if (conference > 0) {
       ref += " [Conference:" + conference + "]";

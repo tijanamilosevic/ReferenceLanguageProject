@@ -14,7 +14,6 @@
         <property id="1421157252384165432" name="memberId" index="3tVfz5" />
       </concept>
       <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
-        <reference id="1075010451642646892" name="defaultMember" index="1H5jkz" />
         <child id="3348158742936976577" name="members" index="25R1y" />
       </concept>
       <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
@@ -262,54 +261,53 @@
   <node concept="25R3W" id="1C3R0FdcfNc">
     <property role="3F6X1D" value="1874583808866581708" />
     <property role="TrG5h" value="Month" />
-    <ref role="1H5jkz" node="1C3R0FdcfNd" resolve="JAN" />
     <node concept="25R33" id="1C3R0FdcfNd" role="25R1y">
       <property role="3tVfz5" value="1874583808866581709" />
-      <property role="TrG5h" value="JAN" />
+      <property role="TrG5h" value="January" />
     </node>
     <node concept="25R33" id="1C3R0FdcfNe" role="25R1y">
       <property role="3tVfz5" value="1874583808866581710" />
-      <property role="TrG5h" value="FEB" />
+      <property role="TrG5h" value="February" />
     </node>
     <node concept="25R33" id="1C3R0FdcfNj" role="25R1y">
       <property role="3tVfz5" value="1874583808866581715" />
-      <property role="TrG5h" value="MAR" />
+      <property role="TrG5h" value="March" />
     </node>
     <node concept="25R33" id="1C3R0FdcfNq" role="25R1y">
       <property role="3tVfz5" value="1874583808866581722" />
-      <property role="TrG5h" value="APR" />
+      <property role="TrG5h" value="April" />
     </node>
     <node concept="25R33" id="1C3R0FdcfNz" role="25R1y">
       <property role="3tVfz5" value="1874583808866581731" />
-      <property role="TrG5h" value="MAY" />
+      <property role="TrG5h" value="May" />
     </node>
     <node concept="25R33" id="1C3R0FdcfNI" role="25R1y">
       <property role="3tVfz5" value="1874583808866581742" />
-      <property role="TrG5h" value="JUN" />
+      <property role="TrG5h" value="June" />
     </node>
     <node concept="25R33" id="1C3R0FdcfNV" role="25R1y">
       <property role="3tVfz5" value="1874583808866581755" />
-      <property role="TrG5h" value="JUL" />
+      <property role="TrG5h" value="July" />
     </node>
     <node concept="25R33" id="1C3R0FdcfOa" role="25R1y">
       <property role="3tVfz5" value="1874583808866581770" />
-      <property role="TrG5h" value="AUG" />
+      <property role="TrG5h" value="August" />
     </node>
     <node concept="25R33" id="1C3R0FdcfOr" role="25R1y">
       <property role="3tVfz5" value="1874583808866581787" />
-      <property role="TrG5h" value="SEP" />
+      <property role="TrG5h" value="September" />
     </node>
     <node concept="25R33" id="1C3R0FdcfOI" role="25R1y">
       <property role="3tVfz5" value="1874583808866581806" />
-      <property role="TrG5h" value="OCT" />
+      <property role="TrG5h" value="October" />
     </node>
     <node concept="25R33" id="1C3R0FdcfP3" role="25R1y">
       <property role="3tVfz5" value="1874583808866581827" />
-      <property role="TrG5h" value="NOV" />
+      <property role="TrG5h" value="November" />
     </node>
     <node concept="25R33" id="1C3R0FdcfPq" role="25R1y">
       <property role="3tVfz5" value="1874583808866581850" />
-      <property role="TrG5h" value="DEC" />
+      <property role="TrG5h" value="December" />
     </node>
   </node>
   <node concept="1TIwiD" id="5dy$fAeWypU">

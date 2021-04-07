@@ -38,12 +38,6 @@ public class check_PhdThesis_NonTypesystemRule extends AbstractNonTypesystemRule
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(phdThesis, "Invalid year", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2178515694385166512", null, errorTarget);
       }
     }
-    if ((SPropertyOperations.getEnum(phdThesis, PROPS.month$aTwD) == null)) {
-      {
-        final MessageTarget errorTarget = new NodeMessageTarget();
-        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(phdThesis, "Month could not be empty", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2178515694385171509", null, errorTarget);
-      }
-    }
     if (isEmptyString(SPropertyOperations.getString(phdThesis, PROPS.school$aEIE))) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
@@ -67,7 +61,6 @@ public class check_PhdThesis_NonTypesystemRule extends AbstractNonTypesystemRule
   private static final class PROPS {
     /*package*/ static final SProperty title$aE1B = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fca5L, 0x1a03dc0acd30fca9L, "title");
     /*package*/ static final SProperty year$aMub = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fca5L, 0x1a03dc0acd30fcb8L, "year");
-    /*package*/ static final SProperty month$aTwD = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fca5L, 0x1a03dc0acd30fcc1L, "month");
     /*package*/ static final SProperty school$aEIE = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fca5L, 0x1a03dc0acd30fcacL, "school");
   }
 

@@ -5,6 +5,7 @@
     <classNode dependClassName="ReferenceLanguage.editor.EditorAspectDescriptorImpl" />
     <classNode dependClassName="ReferenceLanguage.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="ReferenceLanguage.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="ReferenceLanguage.textGen.TextGenAspectDescriptor" />
     <classNode dependClassName="ReferenceLanguage.typesystem.TypesystemDescriptor" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Override" />
@@ -18,6 +19,7 @@
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
     <classNode dependClassName="org.jetbrains.mps.openapi.language.SLanguage" />
     <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />

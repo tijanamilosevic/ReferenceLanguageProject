@@ -15,26 +15,26 @@ public class EnumerationDescriptor_Month extends EnumerationDescriptorBase {
     super(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fcccL, "Month", "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581708");
   }
 
-  private final EnumerationDescriptor.MemberDescriptor myMember_JAN_0 = new EnumerationDescriptor.MemberDescriptor("JAN", "JAN", 0x1a03dc0acd30fccdL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581709");
-  private final EnumerationDescriptor.MemberDescriptor myMember_FEB_0 = new EnumerationDescriptor.MemberDescriptor("FEB", "FEB", 0x1a03dc0acd30fcceL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581710");
-  private final EnumerationDescriptor.MemberDescriptor myMember_MAR_0 = new EnumerationDescriptor.MemberDescriptor("MAR", "MAR", 0x1a03dc0acd30fcd3L, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581715");
-  private final EnumerationDescriptor.MemberDescriptor myMember_APR_0 = new EnumerationDescriptor.MemberDescriptor("APR", "APR", 0x1a03dc0acd30fcdaL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581722");
-  private final EnumerationDescriptor.MemberDescriptor myMember_MAY_0 = new EnumerationDescriptor.MemberDescriptor("MAY", "MAY", 0x1a03dc0acd30fce3L, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581731");
-  private final EnumerationDescriptor.MemberDescriptor myMember_JUN_0 = new EnumerationDescriptor.MemberDescriptor("JUN", "JUN", 0x1a03dc0acd30fceeL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581742");
-  private final EnumerationDescriptor.MemberDescriptor myMember_JUL_0 = new EnumerationDescriptor.MemberDescriptor("JUL", "JUL", 0x1a03dc0acd30fcfbL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581755");
-  private final EnumerationDescriptor.MemberDescriptor myMember_AUG_0 = new EnumerationDescriptor.MemberDescriptor("AUG", "AUG", 0x1a03dc0acd30fd0aL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581770");
-  private final EnumerationDescriptor.MemberDescriptor myMember_SEP_0 = new EnumerationDescriptor.MemberDescriptor("SEP", "SEP", 0x1a03dc0acd30fd1bL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581787");
-  private final EnumerationDescriptor.MemberDescriptor myMember_OCT_0 = new EnumerationDescriptor.MemberDescriptor("OCT", "OCT", 0x1a03dc0acd30fd2eL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581806");
-  private final EnumerationDescriptor.MemberDescriptor myMember_NOV_0 = new EnumerationDescriptor.MemberDescriptor("NOV", "NOV", 0x1a03dc0acd30fd43L, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581827");
-  private final EnumerationDescriptor.MemberDescriptor myMember_DEC_0 = new EnumerationDescriptor.MemberDescriptor("DEC", "DEC", 0x1a03dc0acd30fd5aL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581850");
+  private final EnumerationDescriptor.MemberDescriptor myMember_January_0 = new EnumerationDescriptor.MemberDescriptor("January", "January", 0x1a03dc0acd30fccdL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581709");
+  private final EnumerationDescriptor.MemberDescriptor myMember_February_0 = new EnumerationDescriptor.MemberDescriptor("February", "February", 0x1a03dc0acd30fcceL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581710");
+  private final EnumerationDescriptor.MemberDescriptor myMember_March_0 = new EnumerationDescriptor.MemberDescriptor("March", "March", 0x1a03dc0acd30fcd3L, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581715");
+  private final EnumerationDescriptor.MemberDescriptor myMember_April_0 = new EnumerationDescriptor.MemberDescriptor("April", "April", 0x1a03dc0acd30fcdaL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581722");
+  private final EnumerationDescriptor.MemberDescriptor myMember_May_0 = new EnumerationDescriptor.MemberDescriptor("May", "May", 0x1a03dc0acd30fce3L, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581731");
+  private final EnumerationDescriptor.MemberDescriptor myMember_June_0 = new EnumerationDescriptor.MemberDescriptor("June", "June", 0x1a03dc0acd30fceeL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581742");
+  private final EnumerationDescriptor.MemberDescriptor myMember_July_0 = new EnumerationDescriptor.MemberDescriptor("July", "July", 0x1a03dc0acd30fcfbL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581755");
+  private final EnumerationDescriptor.MemberDescriptor myMember_August_0 = new EnumerationDescriptor.MemberDescriptor("August", "August", 0x1a03dc0acd30fd0aL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581770");
+  private final EnumerationDescriptor.MemberDescriptor myMember_September_0 = new EnumerationDescriptor.MemberDescriptor("September", "September", 0x1a03dc0acd30fd1bL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581787");
+  private final EnumerationDescriptor.MemberDescriptor myMember_October_0 = new EnumerationDescriptor.MemberDescriptor("October", "October", 0x1a03dc0acd30fd2eL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581806");
+  private final EnumerationDescriptor.MemberDescriptor myMember_November_0 = new EnumerationDescriptor.MemberDescriptor("November", "November", 0x1a03dc0acd30fd43L, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581827");
+  private final EnumerationDescriptor.MemberDescriptor myMember_December_0 = new EnumerationDescriptor.MemberDescriptor("December", "December", 0x1a03dc0acd30fd5aL, "r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)/1874583808866581850");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fcccL, 0x1a03dc0acd30fccdL, 0x1a03dc0acd30fcceL, 0x1a03dc0acd30fcd3L, 0x1a03dc0acd30fcdaL, 0x1a03dc0acd30fce3L, 0x1a03dc0acd30fceeL, 0x1a03dc0acd30fcfbL, 0x1a03dc0acd30fd0aL, 0x1a03dc0acd30fd1bL, 0x1a03dc0acd30fd2eL, 0x1a03dc0acd30fd43L, 0x1a03dc0acd30fd5aL);
-  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_JAN_0, myMember_FEB_0, myMember_MAR_0, myMember_APR_0, myMember_MAY_0, myMember_JUN_0, myMember_JUL_0, myMember_AUG_0, myMember_SEP_0, myMember_OCT_0, myMember_NOV_0, myMember_DEC_0);
+  private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList(myIndex, myMember_January_0, myMember_February_0, myMember_March_0, myMember_April_0, myMember_May_0, myMember_June_0, myMember_July_0, myMember_August_0, myMember_September_0, myMember_October_0, myMember_November_0, myMember_December_0);
 
   @Nullable
   @Override
   public EnumerationDescriptor.MemberDescriptor getDefault() {
-    return myMember_JAN_0;
+    return null;
   }
 
   @NotNull
@@ -50,30 +50,30 @@ public class EnumerationDescriptor_Month extends EnumerationDescriptorBase {
       return null;
     }
     switch (memberName) {
-      case "JAN":
-        return myMember_JAN_0;
-      case "FEB":
-        return myMember_FEB_0;
-      case "MAR":
-        return myMember_MAR_0;
-      case "APR":
-        return myMember_APR_0;
-      case "MAY":
-        return myMember_MAY_0;
-      case "JUN":
-        return myMember_JUN_0;
-      case "JUL":
-        return myMember_JUL_0;
-      case "AUG":
-        return myMember_AUG_0;
-      case "SEP":
-        return myMember_SEP_0;
-      case "OCT":
-        return myMember_OCT_0;
-      case "NOV":
-        return myMember_NOV_0;
-      case "DEC":
-        return myMember_DEC_0;
+      case "January":
+        return myMember_January_0;
+      case "February":
+        return myMember_February_0;
+      case "March":
+        return myMember_March_0;
+      case "April":
+        return myMember_April_0;
+      case "May":
+        return myMember_May_0;
+      case "June":
+        return myMember_June_0;
+      case "July":
+        return myMember_July_0;
+      case "August":
+        return myMember_August_0;
+      case "September":
+        return myMember_September_0;
+      case "October":
+        return myMember_October_0;
+      case "November":
+        return myMember_November_0;
+      case "December":
+        return myMember_December_0;
     }
     return null;
   }
