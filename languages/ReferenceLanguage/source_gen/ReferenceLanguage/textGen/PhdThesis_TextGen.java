@@ -24,12 +24,15 @@ public class PhdThesis_TextGen extends TextGenDescriptorBase {
     if (SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.address$aKP4) != null) {
       tgs.append(", ");
       tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.address$aKP4));
-      tgs.append(", ");
     }
     if (SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.month$aTwD) != null) {
+      tgs.append(", ");
       tgs.append(SPropertyOperations.getEnum(ctx.getPrimaryInput(), PROPS.month$aTwD) + " ");
+      tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.year$aMub) + ".");
+    } else {
+      tgs.append(", ");
+      tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.year$aMub) + ".");
     }
-    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.year$aMub) + ".");
   }
 
   private static final class LINKS {
