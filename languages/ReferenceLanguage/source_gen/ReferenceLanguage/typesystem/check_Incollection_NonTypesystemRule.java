@@ -26,6 +26,18 @@ public class check_Incollection_NonTypesystemRule extends AbstractNonTypesystemR
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(incollection, "Title could not be empty!", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "3662926481594719180", null, errorTarget);
       }
     }
+    if (isEmptyString(SPropertyOperations.getString(incollection, PROPS.booktitle$sxkg))) {
+      {
+        final MessageTarget errorTarget = new NodeMessageTarget();
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(incollection, "Book title could not be empty!", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2432563194114839894", null, errorTarget);
+      }
+    }
+    if (SPropertyOperations.getInteger(incollection, PROPS.year$uZFN) == 0) {
+      {
+        final MessageTarget errorTarget = new NodeMessageTarget();
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(incollection, "Year could not be empty!", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2432563194114840921", null, errorTarget);
+      }
+    }
   }
   public SAbstractConcept getApplicableConcept() {
     return CONCEPTS.Incollection$ao;
@@ -42,6 +54,8 @@ public class check_Incollection_NonTypesystemRule extends AbstractNonTypesystemR
 
   private static final class PROPS {
     /*package*/ static final SProperty title$swQe = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef22695L, 0x536290f98ef226a0L, "title");
+    /*package*/ static final SProperty booktitle$sxkg = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef22695L, 0x536290f98ef226a2L, "booktitle");
+    /*package*/ static final SProperty year$uZFN = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef22695L, 0x536290f98ef226a5L, "year");
   }
 
   private static final class CONCEPTS {

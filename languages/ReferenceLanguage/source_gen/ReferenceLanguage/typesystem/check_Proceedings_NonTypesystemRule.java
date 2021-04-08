@@ -26,6 +26,12 @@ public class check_Proceedings_NonTypesystemRule extends AbstractNonTypesystemRu
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(proceedings, "Title could not be empty!", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "3662926481594723985", null, errorTarget);
       }
     }
+    if (SPropertyOperations.getInteger(proceedings, PROPS.year$vNzH) == 0) {
+      {
+        final MessageTarget errorTarget = new NodeMessageTarget();
+        IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(proceedings, "Year could not be empty!", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2432563194114858443", null, errorTarget);
+      }
+    }
   }
   public SAbstractConcept getApplicableConcept() {
     return CONCEPTS.Proceedings$xg;
@@ -42,6 +48,7 @@ public class check_Proceedings_NonTypesystemRule extends AbstractNonTypesystemRu
 
   private static final class PROPS {
     /*package*/ static final SProperty title$v_0J = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef226d4L, 0x536290f98ef226d5L, "title");
+    /*package*/ static final SProperty year$vNzH = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef226d4L, 0x536290f98ef226e9L, "year");
   }
 
   private static final class CONCEPTS {

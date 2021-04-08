@@ -134,6 +134,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("publisher", 0x536290f98ef2267fL).type(PrimitiveTypeId.STRING).origin("6008524254385153663").done();
     b.property("address", 0x536290f98ef22682L).type(PrimitiveTypeId.STRING).origin("6008524254385153666").done();
     b.property("year", 0x536290f98ef22686L).type(PrimitiveTypeId.INTEGER).origin("6008524254385153670").done();
+    b.property("serNumber", 0x21c2335636e828c9L).type(PrimitiveTypeId.INTEGER).origin("2432563194114877641").done();
     b.aggregate("authors", 0x536290f98ef2267bL).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("6008524254385153659").done();
     b.alias("BOOK");
     return b.create();
@@ -219,6 +220,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("publisher", 0x536290f98ef226a9L).type(PrimitiveTypeId.STRING).origin("6008524254385153705").done();
     b.property("address", 0x536290f98ef226aeL).type(PrimitiveTypeId.STRING).origin("6008524254385153710").done();
     b.property("pages", 0x536290f98ef226b4L).type(PrimitiveTypeId.STRING).origin("6008524254385153716").done();
+    b.property("serNumber", 0x21c2335636e8318fL).type(PrimitiveTypeId.INTEGER).origin("2432563194114879887").done();
     b.aggregate("authors", 0x536290f98ef2269cL).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("6008524254385153692").done();
     b.alias("INCOLLECTION");
     return b.create();
@@ -241,6 +243,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("organization", 0x536290f98ef226c8L).type(PrimitiveTypeId.STRING).origin("6008524254385153736").done();
     b.property("address", 0x536290f98ef226cbL).type(PrimitiveTypeId.STRING).origin("6008524254385153739").done();
     b.property("year", 0x536290f98ef226cfL).type(PrimitiveTypeId.INTEGER).origin("6008524254385153743").done();
+    b.property("serNumber", 0x21c2335636e83180L).type(PrimitiveTypeId.INTEGER).origin("2432563194114879872").done();
     b.aggregate("authors", 0x536290f98ef226c4L).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("6008524254385153732").done();
     b.alias("MANUAL");
     return b.create();
@@ -306,6 +309,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("publisher", 0x536290f98ef226deL).type(PrimitiveTypeId.STRING).origin("6008524254385153758").done();
     b.property("address", 0x536290f98ef226e3L).type(PrimitiveTypeId.STRING).origin("6008524254385153763").done();
     b.property("year", 0x536290f98ef226e9L).type(PrimitiveTypeId.INTEGER).origin("6008524254385153769").done();
+    b.property("serNumber", 0x21c2335636e83186L).type(PrimitiveTypeId.INTEGER).origin("2432563194114879878").done();
     b.aggregate("authors", 0x32d5543a5dd01e83L).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("3662926481594523267").done();
     b.alias("PROCEEDINGS");
     return b.create();

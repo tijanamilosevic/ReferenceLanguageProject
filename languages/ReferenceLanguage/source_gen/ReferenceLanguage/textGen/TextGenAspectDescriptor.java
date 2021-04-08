@@ -27,6 +27,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new Article_TextGen();
       case LanguageConceptSwitch.Author:
         return new Author_TextGen();
+      case LanguageConceptSwitch.Book:
+        return new Book_TextGen();
       case LanguageConceptSwitch.Booklet:
         return new Booklet_TextGen();
       case LanguageConceptSwitch.Conference:
@@ -35,14 +37,20 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new InBook_TextGen();
       case LanguageConceptSwitch.InProceedings:
         return new InProceedings_TextGen();
+      case LanguageConceptSwitch.Incollection:
+        return new Incollection_TextGen();
       case LanguageConceptSwitch.Libraries:
         return new Libraries_TextGen();
+      case LanguageConceptSwitch.Manual:
+        return new Manual_TextGen();
       case LanguageConceptSwitch.MasterThesis:
         return new MasterThesis_TextGen();
       case LanguageConceptSwitch.Misc:
         return new Misc_TextGen();
       case LanguageConceptSwitch.PhdThesis:
         return new PhdThesis_TextGen();
+      case LanguageConceptSwitch.Proceedings:
+        return new Proceedings_TextGen();
     }
     return null;
   }

@@ -1038,6 +1038,7 @@
             <property role="3F0ifm" value="Title:" />
           </node>
           <node concept="3F0A7n" id="3bll3DtO1uy" role="3EZMnx">
+            <property role="1$x2rV" value="Enter book title" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWypX" resolve="title" />
           </node>
         </node>
@@ -1049,6 +1050,7 @@
           </node>
           <node concept="l2Vlx" id="3bll3DtO1uB" role="2iSdaV" />
           <node concept="3F0A7n" id="3bll3DtO1uC" role="3EZMnx">
+            <property role="1$x2rV" value="Enter book publisher" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWypZ" resolve="publisher" />
           </node>
         </node>
@@ -1059,6 +1061,7 @@
             <property role="3F0ifm" value="Year:" />
           </node>
           <node concept="3F0A7n" id="3bll3DtO1uH" role="3EZMnx">
+            <property role="1$x2rV" value="Enter book year" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyq6" resolve="year" />
           </node>
           <node concept="l2Vlx" id="3bll3DtO1uI" role="2iSdaV" />
@@ -1118,6 +1121,7 @@
             <property role="3F0ifm" value="Title:" />
           </node>
           <node concept="3F0A7n" id="3bll3DtO1E$" role="3EZMnx">
+            <property role="1$x2rV" value="Enter incollection title" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyqw" resolve="title" />
           </node>
         </node>
@@ -1139,6 +1143,7 @@
             <property role="3F0ifm" value="Year:" />
           </node>
           <node concept="3F0A7n" id="3bll3DtO1EJ" role="3EZMnx">
+            <property role="1$x2rV" value="Enter incollection year" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyq_" resolve="year" />
           </node>
           <node concept="l2Vlx" id="3bll3DtO1EK" role="2iSdaV" />
@@ -1150,7 +1155,7 @@
             <property role="3F0ifm" value="Book Title:" />
           </node>
           <node concept="3F0A7n" id="3bll3DtO1EP" role="3EZMnx">
-            <property role="39s7Ar" value="true" />
+            <property role="1$x2rV" value="Enter incollection booktitle" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyqy" resolve="booktitle" />
           </node>
           <node concept="l2Vlx" id="3bll3DtO1EQ" role="2iSdaV" />
@@ -1234,6 +1239,7 @@
             <property role="3F0ifm" value="Title:" />
           </node>
           <node concept="3F0A7n" id="3bll3DtO1Km" role="3EZMnx">
+            <property role="1$x2rV" value="Enter manual title" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyr6" resolve="title" />
           </node>
         </node>
@@ -1255,6 +1261,7 @@
             <property role="3F0ifm" value="Year:" />
           </node>
           <node concept="3F0A7n" id="3bll3DtO1Kx" role="3EZMnx">
+            <property role="1$x2rV" value="Enter manual year" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyrf" resolve="year" />
           </node>
           <node concept="l2Vlx" id="3bll3DtO1Ky" role="2iSdaV" />
@@ -1314,6 +1321,7 @@
             <property role="3F0ifm" value="Title:" />
           </node>
           <node concept="3F0A7n" id="3bll3DtO1Sw" role="3EZMnx">
+            <property role="1$x2rV" value="Enter proceedings title" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyrl" resolve="title" />
           </node>
         </node>
@@ -1335,6 +1343,7 @@
             <property role="3F0ifm" value="Year:" />
           </node>
           <node concept="3F0A7n" id="3bll3DtO1SF" role="3EZMnx">
+            <property role="1$x2rV" value="Enter proceedings year" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyrD" resolve="year" />
           </node>
           <node concept="l2Vlx" id="3bll3DtO1SG" role="2iSdaV" />

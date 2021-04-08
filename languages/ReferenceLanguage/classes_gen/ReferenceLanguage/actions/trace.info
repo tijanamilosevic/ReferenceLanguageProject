@@ -6,7 +6,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <root>
     <file name="ActionAspectDescriptorImpl.java">
-      <unit at="12,0,42,0" name="ReferenceLanguage.actions.ActionAspectDescriptorImpl" />
+      <unit at="12,0,50,0" name="ReferenceLanguage.actions.ActionAspectDescriptorImpl" />
     </file>
   </root>
   <root nodeRef="r:7bb32486-9b3c-4edd-ab5b-c35d00ab5108(ReferenceLanguage.actions)/1250284339136412929">
@@ -167,6 +167,86 @@
       <unit id="1530532506010545867" at="21,0,24,0" name="ReferenceLanguage.actions.MiscNum$PROPS" />
       <unit id="1530532506010545868" at="14,0,20,0" name="ReferenceLanguage.actions.MiscNum$NodeFactory_1530532506010545868" />
       <unit id="1530532506010545867" at="13,0,25,0" name="ReferenceLanguage.actions.MiscNum" />
+    </file>
+  </root>
+  <root nodeRef="r:7bb32486-9b3c-4edd-ab5b-c35d00ab5108(ReferenceLanguage.actions)/2432563194114875193">
+    <file name="BookNum.java">
+      <node id="2432563194114875952" at="15,91,16,50" concept="2" />
+      <node id="2432563194114875958" at="16,50,17,158" concept="0" />
+      <node id="2432563194114875193" at="22,0,23,0" concept="3" trace="serNumber$uoD$" />
+      <node id="2432563194114875378" at="15,0,19,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2432563194114875378" at="15,91,17,158">
+        <var name="nodeLibraries" id="2432563194114875953" />
+      </scope>
+      <scope id="2432563194114875378" at="15,0,19,0">
+        <var name="enclosingNode" id="2432563194114875378" />
+        <var name="model" id="2432563194114875378" />
+        <var name="newNode" id="2432563194114875378" />
+        <var name="sampleNode" id="2432563194114875378" />
+      </scope>
+      <unit id="2432563194114875193" at="21,0,24,0" name="ReferenceLanguage.actions.BookNum$PROPS" />
+      <unit id="2432563194114875378" at="14,0,20,0" name="ReferenceLanguage.actions.BookNum$NodeFactory_2432563194114875378" />
+      <unit id="2432563194114875193" at="13,0,25,0" name="ReferenceLanguage.actions.BookNum" />
+    </file>
+  </root>
+  <root nodeRef="r:7bb32486-9b3c-4edd-ab5b-c35d00ab5108(ReferenceLanguage.actions)/2432563194114880414">
+    <file name="ManualNum.java">
+      <node id="2432563194114880429" at="15,91,16,50" concept="2" />
+      <node id="2432563194114880435" at="16,50,17,157" concept="0" />
+      <node id="2432563194114880414" at="22,0,23,0" concept="3" trace="serNumber$ju6" />
+      <node id="2432563194114880415" at="15,0,19,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2432563194114880415" at="15,91,17,157">
+        <var name="nodeLibraries" id="2432563194114880430" />
+      </scope>
+      <scope id="2432563194114880415" at="15,0,19,0">
+        <var name="enclosingNode" id="2432563194114880415" />
+        <var name="model" id="2432563194114880415" />
+        <var name="newNode" id="2432563194114880415" />
+        <var name="sampleNode" id="2432563194114880415" />
+      </scope>
+      <unit id="2432563194114880414" at="21,0,24,0" name="ReferenceLanguage.actions.ManualNum$PROPS" />
+      <unit id="2432563194114880415" at="14,0,20,0" name="ReferenceLanguage.actions.ManualNum$NodeFactory_2432563194114880415" />
+      <unit id="2432563194114880414" at="13,0,25,0" name="ReferenceLanguage.actions.ManualNum" />
+    </file>
+  </root>
+  <root nodeRef="r:7bb32486-9b3c-4edd-ab5b-c35d00ab5108(ReferenceLanguage.actions)/2432563194114881343">
+    <file name="ProceedingsNum.java">
+      <node id="2432563194114881358" at="15,91,16,50" concept="2" />
+      <node id="2432563194114881364" at="16,50,17,157" concept="0" />
+      <node id="2432563194114881343" at="22,0,23,0" concept="3" trace="serNumber$laA" />
+      <node id="2432563194114881344" at="15,0,19,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2432563194114881344" at="15,91,17,157">
+        <var name="nodeLibraries" id="2432563194114881359" />
+      </scope>
+      <scope id="2432563194114881344" at="15,0,19,0">
+        <var name="enclosingNode" id="2432563194114881344" />
+        <var name="model" id="2432563194114881344" />
+        <var name="newNode" id="2432563194114881344" />
+        <var name="sampleNode" id="2432563194114881344" />
+      </scope>
+      <unit id="2432563194114881343" at="21,0,24,0" name="ReferenceLanguage.actions.ProceedingsNum$PROPS" />
+      <unit id="2432563194114881344" at="14,0,20,0" name="ReferenceLanguage.actions.ProceedingsNum$NodeFactory_2432563194114881344" />
+      <unit id="2432563194114881343" at="13,0,25,0" name="ReferenceLanguage.actions.ProceedingsNum" />
+    </file>
+  </root>
+  <root nodeRef="r:7bb32486-9b3c-4edd-ab5b-c35d00ab5108(ReferenceLanguage.actions)/2432563194114882492">
+    <file name="IncollectionNum.java">
+      <node id="2432563194114882507" at="15,91,16,50" concept="2" />
+      <node id="2432563194114882513" at="16,50,17,157" concept="0" />
+      <node id="2432563194114882492" at="22,0,23,0" concept="3" trace="serNumber$lQc" />
+      <node id="2432563194114882493" at="15,0,19,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2432563194114882493" at="15,91,17,157">
+        <var name="nodeLibraries" id="2432563194114882508" />
+      </scope>
+      <scope id="2432563194114882493" at="15,0,19,0">
+        <var name="enclosingNode" id="2432563194114882493" />
+        <var name="model" id="2432563194114882493" />
+        <var name="newNode" id="2432563194114882493" />
+        <var name="sampleNode" id="2432563194114882493" />
+      </scope>
+      <unit id="2432563194114882492" at="21,0,24,0" name="ReferenceLanguage.actions.IncollectionNum$PROPS" />
+      <unit id="2432563194114882493" at="14,0,20,0" name="ReferenceLanguage.actions.IncollectionNum$NodeFactory_2432563194114882493" />
+      <unit id="2432563194114882492" at="13,0,25,0" name="ReferenceLanguage.actions.IncollectionNum" />
     </file>
   </root>
 </debug-info>
