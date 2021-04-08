@@ -358,7 +358,54 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="3bll3DtOKxG" role="3cqZAp" />
+      <node concept="3clFbJ" id="272cPoQTQgm" role="3cqZAp">
+        <node concept="2OqwBi" id="272cPoQTQgn" role="3clFbw">
+          <node concept="2OqwBi" id="272cPoQTQgo" role="2Oq$k0">
+            <node concept="1YBJjd" id="272cPoQTQgp" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOJf7" resolve="book" />
+            </node>
+            <node concept="3TrcHB" id="272cPoQTQsr" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWypZ" resolve="publisher" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="272cPoQTQgr" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="272cPoQTQgs" role="3clFbx">
+          <node concept="2MkqsV" id="272cPoQTQgt" role="3cqZAp">
+            <node concept="Xl_RD" id="272cPoQTQgu" role="2MkJ7o">
+              <property role="Xl_RC" value="Publisher could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="272cPoQTQgv" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOJf7" resolve="book" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="272cPoQTQNh" role="3cqZAp">
+        <node concept="3clFbC" id="272cPoQTSjx" role="3clFbw">
+          <node concept="3cmrfG" id="272cPoQTSLF" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="272cPoQTQNj" role="3uHU7B">
+            <node concept="1YBJjd" id="272cPoQTQNk" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOJf7" resolve="book" />
+            </node>
+            <node concept="3TrcHB" id="272cPoQTQQy" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWyq6" resolve="year" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="272cPoQTQNn" role="3clFbx">
+          <node concept="2MkqsV" id="272cPoQTQNo" role="3cqZAp">
+            <node concept="Xl_RD" id="272cPoQTQNp" role="2MkJ7o">
+              <property role="Xl_RC" value="Year could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="272cPoQTQNq" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOJf7" resolve="book" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="3bll3DtOJf7" role="1YuTPh">
       <property role="TrG5h" value="book" />
@@ -386,6 +433,54 @@
               <property role="Xl_RC" value="Title could not be empty!" />
             </node>
             <node concept="1YBJjd" id="3bll3DtOLJT" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOKVt" resolve="incollection" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="272cPoQTTlf" role="3cqZAp">
+        <node concept="2OqwBi" id="272cPoQTTlg" role="3clFbw">
+          <node concept="2OqwBi" id="272cPoQTTlh" role="2Oq$k0">
+            <node concept="1YBJjd" id="272cPoQTTli" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOKVt" resolve="incollection" />
+            </node>
+            <node concept="3TrcHB" id="272cPoQTT$t" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWyqy" resolve="booktitle" />
+            </node>
+          </node>
+          <node concept="17RlXB" id="272cPoQTTlk" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="272cPoQTTll" role="3clFbx">
+          <node concept="2MkqsV" id="272cPoQTTlm" role="3cqZAp">
+            <node concept="Xl_RD" id="272cPoQTTln" role="2MkJ7o">
+              <property role="Xl_RC" value="Book title could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="272cPoQTTlo" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOKVt" resolve="incollection" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="272cPoQTT_i" role="3cqZAp">
+        <node concept="3clFbC" id="272cPoQTVaB" role="3clFbw">
+          <node concept="3cmrfG" id="272cPoQTVAg" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="272cPoQTT_k" role="3uHU7B">
+            <node concept="1YBJjd" id="272cPoQTT_l" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOKVt" resolve="incollection" />
+            </node>
+            <node concept="3TrcHB" id="272cPoQTTBr" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWyq_" resolve="year" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="272cPoQTT_o" role="3clFbx">
+          <node concept="2MkqsV" id="272cPoQTT_p" role="3cqZAp">
+            <node concept="Xl_RD" id="272cPoQTT_q" role="2MkJ7o">
+              <property role="Xl_RC" value="Year could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="272cPoQTT_r" role="1urrMF">
               <ref role="1YBMHb" node="3bll3DtOKVt" resolve="incollection" />
             </node>
           </node>
@@ -423,6 +518,31 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbJ" id="272cPoQTW3D" role="3cqZAp">
+        <node concept="3clFbC" id="272cPoQTXbU" role="3clFbw">
+          <node concept="3cmrfG" id="272cPoQTXBa" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="272cPoQTW3F" role="3uHU7B">
+            <node concept="1YBJjd" id="272cPoQTW3G" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOLLj" resolve="manual" />
+            </node>
+            <node concept="3TrcHB" id="272cPoQTWkT" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWyrf" resolve="year" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="272cPoQTW3J" role="3clFbx">
+          <node concept="2MkqsV" id="272cPoQTW3K" role="3cqZAp">
+            <node concept="Xl_RD" id="272cPoQTW3L" role="2MkJ7o">
+              <property role="Xl_RC" value="Year could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="272cPoQTW3M" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOLLj" resolve="manual" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="3bll3DtOLLj" role="1YuTPh">
       <property role="TrG5h" value="manual" />
@@ -450,6 +570,31 @@
               <property role="Xl_RC" value="Title could not be empty!" />
             </node>
             <node concept="1YBJjd" id="3bll3DtOMUJ" role="1urrMF">
+              <ref role="1YBMHb" node="3bll3DtOMm1" resolve="proceedings" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="272cPoQTXR4" role="3cqZAp">
+        <node concept="3clFbC" id="272cPoQTYZd" role="3clFbw">
+          <node concept="3cmrfG" id="272cPoQTZqt" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="272cPoQTXR5" role="3uHU7B">
+            <node concept="1YBJjd" id="272cPoQTXR7" role="2Oq$k0">
+              <ref role="1YBMHb" node="3bll3DtOMm1" resolve="proceedings" />
+            </node>
+            <node concept="3TrcHB" id="272cPoQTY9p" role="2OqNvi">
+              <ref role="3TsBF5" to="gu6h:5dy$fAeWyrD" resolve="year" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="272cPoQTXRa" role="3clFbx">
+          <node concept="2MkqsV" id="272cPoQTXRb" role="3cqZAp">
+            <node concept="Xl_RD" id="272cPoQTXRc" role="2MkJ7o">
+              <property role="Xl_RC" value="Year could not be empty!" />
+            </node>
+            <node concept="1YBJjd" id="272cPoQTXRd" role="1urrMF">
               <ref role="1YBMHb" node="3bll3DtOMm1" resolve="proceedings" />
             </node>
           </node>
