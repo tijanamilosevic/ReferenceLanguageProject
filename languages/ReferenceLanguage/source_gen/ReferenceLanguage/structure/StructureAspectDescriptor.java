@@ -109,6 +109,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("volume", 0x1a03dc0acd30fc0dL).type(PrimitiveTypeId.STRING).origin("1874583808866581517").done();
     b.property("number", 0x1a03dc0acd30fc16L).type(PrimitiveTypeId.STRING).origin("1874583808866581526").done();
     b.property("pages", 0x1a03dc0acd30fc21L).type(PrimitiveTypeId.STRING).origin("1874583808866581537").done();
+    b.property("serNumber", 0x1159e6fb6e75bc89L).type(PrimitiveTypeId.INTEGER).origin("1250284339136412809").done();
     b.aggregate("authors", 0x1a03dc0acd30fbfbL).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("1874583808866581499").done();
     b.alias("ARTICLE");
     return b.create();
@@ -147,6 +148,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("howpublished", 0x1da23d5c1241dbf3L).type(PrimitiveTypeId.STRING).origin("2135336638979628019").done();
     b.property("month", 0x1da23d5c1241dbf6L).type(MetaIdFactory.dataTypeId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fcccL)).origin("2135336638979628022").done();
     b.property("year", 0x1da23d5c1241dbfaL).type(PrimitiveTypeId.INTEGER).origin("2135336638979628026").done();
+    b.property("serNumber", 0x153d8b3481f25cddL).type(PrimitiveTypeId.INTEGER).origin("1530532506010541277").done();
     b.aggregate("authors", 0x1da23d5c1241dbefL).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("2135336638979628015").done();
     b.alias("BOOKLET");
     return b.create();
@@ -164,6 +166,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("pages", 0x1da23d5c1241dc10L).type(PrimitiveTypeId.STRING).origin("2135336638979628048").done();
     b.property("publisher", 0x1da23d5c1241dc16L).type(PrimitiveTypeId.STRING).origin("2135336638979628054").done();
     b.property("address", 0x1da23d5c1241dc1dL).type(PrimitiveTypeId.STRING).origin("2135336638979628061").done();
+    b.property("serNumber", 0x153d8b3481f26384L).type(PrimitiveTypeId.INTEGER).origin("1530532506010542980").done();
     b.aggregate("authors", 0x1da23d5c1241dc00L).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("2135336638979628032").done();
     b.alias("CONFERENCE");
     return b.create();
@@ -180,6 +183,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("publisher", 0x1a03dc0acd30fc41L).type(PrimitiveTypeId.STRING).origin("1874583808866581569").done();
     b.property("address", 0x1a03dc0acd30fc4aL).type(PrimitiveTypeId.STRING).origin("1874583808866581578").done();
     b.property("pages", 0x1a03dc0acd30fc55L).type(PrimitiveTypeId.STRING).origin("1874583808866581589").done();
+    b.property("serNum", 0x1159e6fb6e80277eL).type(PrimitiveTypeId.INTEGER).origin("1250284339137095550").done();
     b.aggregate("authors", 0x1a03dc0acd30fc2fL).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("1874583808866581551").done();
     b.alias("INBOOK");
     return b.create();
@@ -197,6 +201,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("pages", 0x1a03dc0acd30fc7eL).type(PrimitiveTypeId.STRING).origin("1874583808866581630").done();
     b.property("publisher", 0x1a03dc0acd30fc89L).type(PrimitiveTypeId.STRING).origin("1874583808866581641").done();
     b.property("address", 0x1a03dc0acd30fc96L).type(PrimitiveTypeId.STRING).origin("1874583808866581654").done();
+    b.property("serNum", 0x1159e6fb6e806349L).type(PrimitiveTypeId.INTEGER).origin("1250284339137110857").done();
     b.aggregate("authors", 0x1a03dc0acd30fc63L).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("1874583808866581603").done();
     b.alias("INPROCEEDINGS");
     return b.create();
@@ -251,6 +256,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("year", 0x1da23d5c1241dc2dL).type(PrimitiveTypeId.INTEGER).origin("2135336638979628077").done();
     b.property("address", 0x1da23d5c1241dc31L).type(PrimitiveTypeId.STRING).origin("2135336638979628081").done();
     b.property("month", 0x1da23d5c1241dc36L).type(MetaIdFactory.dataTypeId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fcccL)).origin("2135336638979628086").done();
+    b.property("serNumber", 0x153d8b3481f26a57L).type(PrimitiveTypeId.INTEGER).origin("1530532506010544727").done();
     b.aggregate("author", 0x1da23d5c1241dc26L).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(false).origin("2135336638979628070").done();
     b.alias("MASTER_THESIS");
     return b.create();
@@ -266,6 +272,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("howpublshed", 0x1da23d5c1241dc41L).type(PrimitiveTypeId.STRING).origin("2135336638979628097").done();
     b.property("year", 0x1da23d5c1241dc44L).type(PrimitiveTypeId.INTEGER).origin("2135336638979628100").done();
     b.property("note", 0x1da23d5c1241dc48L).type(PrimitiveTypeId.STRING).origin("2135336638979628104").done();
+    b.property("serNumber", 0x153d8b3481f26ec2L).type(PrimitiveTypeId.INTEGER).origin("1530532506010545858").done();
     b.aggregate("authors", 0x1da23d5c1241dc3dL).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(true).origin("2135336638979628093").done();
     b.alias("MISC");
     return b.create();
@@ -281,6 +288,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("address", 0x1a03dc0acd30fcb1L).type(PrimitiveTypeId.STRING).origin("1874583808866581681").done();
     b.property("year", 0x1a03dc0acd30fcb8L).type(PrimitiveTypeId.INTEGER).origin("1874583808866581688").done();
     b.property("month", 0x1a03dc0acd30fcc1L).type(MetaIdFactory.dataTypeId(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fcccL)).origin("1874583808866581697").done();
+    b.property("serNum", 0x1159e6fb6e7d6bffL).type(PrimitiveTypeId.INTEGER).origin("1250284339136916479").done();
     b.aggregate("author", 0x1a03dc0acd30fca6L).target(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L).optional(false).ordered(true).multiple(false).origin("1874583808866581670").done();
     b.alias("PHD_THESIS");
     return b.create();
