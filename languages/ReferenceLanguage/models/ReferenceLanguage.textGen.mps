@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="gu6h" ref="r:7832ba79-122e-452d-b064-5ac586f5bd58(ReferenceLanguage.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -44,6 +45,7 @@
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -986,17 +988,25 @@
               <node concept="l9hG8" id="20M9$C2Lo6g" role="lcghm">
                 <node concept="3cpWs3" id="20M9$C2Lo6h" role="lb14g">
                   <node concept="Xl_RD" id="20M9$C2Lo6i" role="3uHU7w">
-                    <property role="Xl_RC" value=" " />
+                    <property role="Xl_RC" value=". " />
                   </node>
-                  <node concept="2OqwBi" id="20M9$C2Lpkr" role="3uHU7B">
-                    <node concept="2OqwBi" id="20M9$C2Lo6j" role="2Oq$k0">
-                      <node concept="117lpO" id="20M9$C2Lo6k" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="20M9$C2Lpaq" role="2OqNvi">
-                        <ref role="3Tt5mk" to="gu6h:1QyflKigtKA" resolve="author" />
+                  <node concept="2OqwBi" id="7GcgiqltmIj" role="3uHU7B">
+                    <node concept="2OqwBi" id="20M9$C2Lpkr" role="2Oq$k0">
+                      <node concept="2OqwBi" id="20M9$C2Lo6j" role="2Oq$k0">
+                        <node concept="117lpO" id="20M9$C2Lo6k" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="20M9$C2Lpaq" role="2OqNvi">
+                          <ref role="3Tt5mk" to="gu6h:1QyflKigtKA" resolve="author" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="20M9$C2Lpu6" role="2OqNvi">
+                        <ref role="3TsBF5" to="gu6h:1C3R0FdcfPQ" resolve="middleName" />
                       </node>
                     </node>
-                    <node concept="3TrcHB" id="20M9$C2Lpu6" role="2OqNvi">
-                      <ref role="3TsBF5" to="gu6h:1C3R0FdcfPQ" resolve="middleName" />
+                    <node concept="liA8E" id="7GcgiqltsP0" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.charAt(int)" resolve="charAt" />
+                      <node concept="3cmrfG" id="7Gcgiqltt8y" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
                     </node>
                   </node>
                 </node>

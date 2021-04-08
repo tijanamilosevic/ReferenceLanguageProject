@@ -19,7 +19,7 @@ public class MasterThesis_TextGen extends TextGenDescriptorBase {
     tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNumber$Pyug) + "] ");
     tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4), PROPS.firstName$_Jim) + " ");
     if (SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4), PROPS.middleName$_JZp) != null) {
-      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4), PROPS.middleName$_JZp) + " ");
+      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4), PROPS.middleName$_JZp).charAt(0) + ". ");
     }
     tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4), PROPS.surname$_Q5N) + ". ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.title$lW46) + ". Master's thesis, ");

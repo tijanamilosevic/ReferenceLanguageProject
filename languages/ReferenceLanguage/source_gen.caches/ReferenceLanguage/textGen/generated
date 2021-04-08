@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-3ojm42exse6fu5prxhc55r6rsga5k8l">
+<product version="3" modelHash="92oqewp77h82q2g1822inec5me0c6r7">
   <files names="Article_TextGen.java:Author_TextGen.java:Book_TextGen.java:Booklet_TextGen.java:Conference_TextGen.java:InBook_TextGen.java:InProceedings_TextGen.java:Incollection_TextGen.java:Libraries_TextGen.java:Manual_TextGen.java:MasterThesis_TextGen.java:Misc_TextGen.java:PhdThesis_TextGen.java:Proceedings_TextGen.java:TextGenAspectDescriptor.java" />
 </product>
 
