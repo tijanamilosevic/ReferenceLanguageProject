@@ -245,5 +245,173 @@
       </node>
     </node>
   </node>
+  <node concept="37WguZ" id="1kXyNi1W_VZ">
+    <property role="TrG5h" value="BookletNum" />
+    <node concept="37WvkG" id="1kXyNi1W_W0" role="37WGs$">
+      <ref role="37XkoT" to="gu6h:1QyflKigtJE" resolve="Booklet" />
+      <node concept="37Y9Zx" id="1kXyNi1W_W1" role="37ZfLb">
+        <node concept="3clFbS" id="1kXyNi1W_W2" role="2VODD2">
+          <node concept="3cpWs8" id="1kXyNi1W_Wd" role="3cqZAp">
+            <node concept="3cpWsn" id="1kXyNi1W_We" role="3cpWs9">
+              <property role="TrG5h" value="nodeLibraries" />
+              <node concept="3Tqbb2" id="1kXyNi1W_Wf" role="1tU5fm">
+                <ref role="ehGHo" to="gu6h:1SVD7HlnzbC" resolve="Libraries" />
+              </node>
+              <node concept="10QFUN" id="1kXyNi1W_Wg" role="33vP2m">
+                <node concept="1r4N1M" id="1kXyNi1W_Wh" role="10QFUP" />
+                <node concept="3Tqbb2" id="1kXyNi1W_Wi" role="10QFUM">
+                  <ref role="ehGHo" to="gu6h:1SVD7HlnzbC" resolve="Libraries" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="1kXyNi1W_Wj" role="3cqZAp">
+            <node concept="37vLTI" id="1kXyNi1W_Wk" role="3clFbG">
+              <node concept="2OqwBi" id="1kXyNi1W_Wl" role="37vLTx">
+                <node concept="37vLTw" id="1kXyNi1W_Wm" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1kXyNi1W_We" resolve="nodeLibraries" />
+                </node>
+                <node concept="2qgKlT" id="1kXyNi1W_Wn" role="2OqNvi">
+                  <ref role="37wK5l" to="tf3z:1SVD7HltPDO" resolve="getNuberOfReferences" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1kXyNi1W_Wo" role="37vLTJ">
+                <node concept="1r4Lsj" id="1kXyNi1W_Wp" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1kXyNi1W_Wq" role="2OqNvi">
+                  <ref role="3TsBF5" to="gu6h:1kXyNi1W_Nt" resolve="serNumber" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="37WguZ" id="1kXyNi1WAdM">
+    <property role="TrG5h" value="ConferenceNum" />
+    <node concept="37WvkG" id="1kXyNi1WAdN" role="37WGs$">
+      <ref role="37XkoT" to="gu6h:1QyflKigtJZ" resolve="Conference" />
+      <node concept="37Y9Zx" id="1kXyNi1WAed" role="37ZfLb">
+        <node concept="3clFbS" id="1kXyNi1WAee" role="2VODD2">
+          <node concept="3cpWs8" id="1kXyNi1WAez" role="3cqZAp">
+            <node concept="3cpWsn" id="1kXyNi1WAe$" role="3cpWs9">
+              <property role="TrG5h" value="nodeLibraries" />
+              <node concept="3Tqbb2" id="1kXyNi1WAe_" role="1tU5fm">
+                <ref role="ehGHo" to="gu6h:1SVD7HlnzbC" resolve="Libraries" />
+              </node>
+              <node concept="10QFUN" id="1kXyNi1WAeA" role="33vP2m">
+                <node concept="1r4N1M" id="1kXyNi1WAeB" role="10QFUP" />
+                <node concept="3Tqbb2" id="1kXyNi1WAeC" role="10QFUM">
+                  <ref role="ehGHo" to="gu6h:1SVD7HlnzbC" resolve="Libraries" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="1kXyNi1WAeD" role="3cqZAp">
+            <node concept="37vLTI" id="1kXyNi1WAeE" role="3clFbG">
+              <node concept="2OqwBi" id="1kXyNi1WAeF" role="37vLTx">
+                <node concept="37vLTw" id="1kXyNi1WAeG" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1kXyNi1WAe$" resolve="nodeLibraries" />
+                </node>
+                <node concept="2qgKlT" id="1kXyNi1WAeH" role="2OqNvi">
+                  <ref role="37wK5l" to="tf3z:1SVD7HltPDO" resolve="getNuberOfReferences" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1kXyNi1WAeI" role="37vLTJ">
+                <node concept="1r4Lsj" id="1kXyNi1WAeJ" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1kXyNi1WAeK" role="2OqNvi">
+                  <ref role="3TsBF5" to="gu6h:1kXyNi1WAe4" resolve="serNumber" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="37WguZ" id="1kXyNi1WADx">
+    <property role="TrG5h" value="MasterThesisNum" />
+    <node concept="37WvkG" id="1kXyNi1WADy" role="37WGs$">
+      <ref role="37XkoT" to="gu6h:1QyflKigtK_" resolve="MasterThesis" />
+      <node concept="37Y9Zx" id="1kXyNi1WADz" role="37ZfLb">
+        <node concept="3clFbS" id="1kXyNi1WAD$" role="2VODD2">
+          <node concept="3cpWs8" id="1kXyNi1WADJ" role="3cqZAp">
+            <node concept="3cpWsn" id="1kXyNi1WADK" role="3cpWs9">
+              <property role="TrG5h" value="nodeLibraries" />
+              <node concept="3Tqbb2" id="1kXyNi1WADL" role="1tU5fm">
+                <ref role="ehGHo" to="gu6h:1SVD7HlnzbC" resolve="Libraries" />
+              </node>
+              <node concept="10QFUN" id="1kXyNi1WADM" role="33vP2m">
+                <node concept="1r4N1M" id="1kXyNi1WADN" role="10QFUP" />
+                <node concept="3Tqbb2" id="1kXyNi1WADO" role="10QFUM">
+                  <ref role="ehGHo" to="gu6h:1SVD7HlnzbC" resolve="Libraries" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="1kXyNi1WADP" role="3cqZAp">
+            <node concept="37vLTI" id="1kXyNi1WADQ" role="3clFbG">
+              <node concept="2OqwBi" id="1kXyNi1WADR" role="37vLTx">
+                <node concept="37vLTw" id="1kXyNi1WADS" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1kXyNi1WADK" resolve="nodeLibraries" />
+                </node>
+                <node concept="2qgKlT" id="1kXyNi1WADT" role="2OqNvi">
+                  <ref role="37wK5l" to="tf3z:1SVD7HltPDO" resolve="getNuberOfReferences" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1kXyNi1WADU" role="37vLTJ">
+                <node concept="1r4Lsj" id="1kXyNi1WADV" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1kXyNi1WADW" role="2OqNvi">
+                  <ref role="3TsBF5" to="gu6h:1kXyNi1WADn" resolve="serNumber" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="37WguZ" id="1kXyNi1WAVb">
+    <property role="TrG5h" value="MiscNum" />
+    <node concept="37WvkG" id="1kXyNi1WAVc" role="37WGs$">
+      <ref role="37XkoT" to="gu6h:1QyflKigtKW" resolve="Misc" />
+      <node concept="37Y9Zx" id="1kXyNi1WAVd" role="37ZfLb">
+        <node concept="3clFbS" id="1kXyNi1WAVe" role="2VODD2">
+          <node concept="3cpWs8" id="1kXyNi1WAVp" role="3cqZAp">
+            <node concept="3cpWsn" id="1kXyNi1WAVq" role="3cpWs9">
+              <property role="TrG5h" value="nodeLibraries" />
+              <node concept="3Tqbb2" id="1kXyNi1WAVr" role="1tU5fm">
+                <ref role="ehGHo" to="gu6h:1SVD7HlnzbC" resolve="Libraries" />
+              </node>
+              <node concept="10QFUN" id="1kXyNi1WAVs" role="33vP2m">
+                <node concept="1r4N1M" id="1kXyNi1WAVt" role="10QFUP" />
+                <node concept="3Tqbb2" id="1kXyNi1WAVu" role="10QFUM">
+                  <ref role="ehGHo" to="gu6h:1SVD7HlnzbC" resolve="Libraries" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="1kXyNi1WAVv" role="3cqZAp">
+            <node concept="37vLTI" id="1kXyNi1WAVw" role="3clFbG">
+              <node concept="2OqwBi" id="1kXyNi1WAVx" role="37vLTx">
+                <node concept="37vLTw" id="1kXyNi1WAVy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1kXyNi1WAVq" resolve="nodeLibraries" />
+                </node>
+                <node concept="2qgKlT" id="1kXyNi1WAVz" role="2OqNvi">
+                  <ref role="37wK5l" to="tf3z:1SVD7HltPDO" resolve="getNuberOfReferences" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1kXyNi1WAV$" role="37vLTJ">
+                <node concept="1r4Lsj" id="1kXyNi1WAV_" role="2Oq$k0" />
+                <node concept="3TrcHB" id="1kXyNi1WAVA" role="2OqNvi">
+                  <ref role="3TsBF5" to="gu6h:1kXyNi1WAV2" resolve="serNumber" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -18,10 +18,18 @@ public class ActionAspectDescriptorImpl extends BaseActionAspectDescriptor imple
       switch (concept.getName()) {
         case "Article":
           return Collections.<NodeFactory>singletonList(new ArticleNum.NodeFactory_1250284339136412930());
+        case "Booklet":
+          return Collections.<NodeFactory>singletonList(new BookletNum.NodeFactory_1530532506010541824());
+        case "Conference":
+          return Collections.<NodeFactory>singletonList(new ConferenceNum.NodeFactory_1530532506010542963());
         case "InBook":
           return Collections.<NodeFactory>singletonList(new InBookNumber.NodeFactory_1250284339137095562());
         case "InProceedings":
           return Collections.<NodeFactory>singletonList(new InProceedingsNum.NodeFactory_1250284339137110870());
+        case "MasterThesis":
+          return Collections.<NodeFactory>singletonList(new MasterThesisNum.NodeFactory_1530532506010544738());
+        case "Misc":
+          return Collections.<NodeFactory>singletonList(new MiscNum.NodeFactory_1530532506010545868());
         case "PhdThesis":
           return Collections.<NodeFactory>singletonList(new PhdThesisNum.NodeFactory_1250284339136916490());
         default:

@@ -5,18 +5,20 @@ package ReferenceLanguage.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SProperty;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class Misc_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
+    tgs.append("[");
+    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNumber$ACbS) + "] ");
     if (SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.authors$mbvJ).size() > 0) {
       {
         Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.authors$mbvJ);
@@ -30,6 +32,7 @@ public class Misc_TextGen extends TextGenDescriptorBase {
       }
     }
     if (SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.title$mbXL) != null) {
+      tgs.append(". ");
       tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.title$mbXL) + ". ");
     }
     if (SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.howpublshed$mcrN) != null) {
@@ -43,14 +46,15 @@ public class Misc_TextGen extends TextGenDescriptorBase {
     }
   }
 
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink authors$mbvJ = MetaAdapterFactory.getContainmentLink(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL, 0x1da23d5c1241dc3dL, "authors");
-  }
-
   private static final class PROPS {
+    /*package*/ static final SProperty serNumber$ACbS = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL, 0x153d8b3481f26ec2L, "serNumber");
     /*package*/ static final SProperty title$mbXL = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL, 0x1da23d5c1241dc3fL, "title");
     /*package*/ static final SProperty howpublshed$mcrN = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL, 0x1da23d5c1241dc41L, "howpublshed");
     /*package*/ static final SProperty year$oENm = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL, 0x1da23d5c1241dc44L, "year");
     /*package*/ static final SProperty note$oFJq = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL, 0x1da23d5c1241dc48L, "note");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink authors$mbvJ = MetaAdapterFactory.getContainmentLink(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL, 0x1da23d5c1241dc3dL, "authors");
   }
 }

@@ -2,8 +2,12 @@
 <dependenciesRoot>
   <dependency className="ReferenceLanguage.actions.ActionAspectDescriptorImpl">
     <classNode dependClassName="ReferenceLanguage.actions.ArticleNum" />
+    <classNode dependClassName="ReferenceLanguage.actions.BookletNum" />
+    <classNode dependClassName="ReferenceLanguage.actions.ConferenceNum" />
     <classNode dependClassName="ReferenceLanguage.actions.InBookNumber" />
     <classNode dependClassName="ReferenceLanguage.actions.InProceedingsNum" />
+    <classNode dependClassName="ReferenceLanguage.actions.MasterThesisNum" />
+    <classNode dependClassName="ReferenceLanguage.actions.MiscNum" />
     <classNode dependClassName="ReferenceLanguage.actions.PhdThesisNum" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -23,6 +27,24 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
+  <dependency className="ReferenceLanguage.actions.BookletNum">
+    <classNode dependClassName="ReferenceLanguage.behavior.Libraries__BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.NodeFactory" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="ReferenceLanguage.actions.ConferenceNum">
+    <classNode dependClassName="ReferenceLanguage.behavior.Libraries__BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.NodeFactory" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
   <dependency className="ReferenceLanguage.actions.InBookNumber">
     <classNode dependClassName="ReferenceLanguage.behavior.Libraries__BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
@@ -33,6 +55,24 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
   </dependency>
   <dependency className="ReferenceLanguage.actions.InProceedingsNum">
+    <classNode dependClassName="ReferenceLanguage.behavior.Libraries__BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.NodeFactory" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="ReferenceLanguage.actions.MasterThesisNum">
+    <classNode dependClassName="ReferenceLanguage.behavior.Libraries__BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.NodeFactory" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SProperty" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SModel" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="ReferenceLanguage.actions.MiscNum">
     <classNode dependClassName="ReferenceLanguage.behavior.Libraries__BehaviorDescriptor" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.NodeFactory" />

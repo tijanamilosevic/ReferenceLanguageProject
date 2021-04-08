@@ -5,18 +5,20 @@ package ReferenceLanguage.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SProperty;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class Conference_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
+    tgs.append("[");
+    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNumber$yN$c) + "] ");
     {
       Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.authors$ludf);
       final SNode lastItem = Sequence.fromIterable(collection).last();
@@ -44,15 +46,16 @@ public class Conference_TextGen extends TextGenDescriptorBase {
     tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.year$l_HJ) + ".");
   }
 
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink authors$ludf = MetaAdapterFactory.getContainmentLink(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL, 0x1da23d5c1241dc00L, "authors");
-  }
-
   private static final class PROPS {
+    /*package*/ static final SProperty serNumber$yN$c = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL, 0x153d8b3481f26384L, "serNumber");
     /*package*/ static final SProperty title$luFh = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL, 0x1da23d5c1241dc02L, "title");
     /*package*/ static final SProperty pages$lASO = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL, 0x1da23d5c1241dc10L, "pages");
     /*package*/ static final SProperty publisher$lHef = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL, 0x1da23d5c1241dc16L, "publisher");
     /*package*/ static final SProperty address$lNMF = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL, 0x1da23d5c1241dc1dL, "address");
     /*package*/ static final SProperty year$l_HJ = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL, 0x1da23d5c1241dc0bL, "year");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink authors$ludf = MetaAdapterFactory.getContainmentLink(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbffL, 0x1da23d5c1241dc00L, "authors");
   }
 }
