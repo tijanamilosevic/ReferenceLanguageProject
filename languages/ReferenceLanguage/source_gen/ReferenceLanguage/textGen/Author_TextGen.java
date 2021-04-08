@@ -13,10 +13,10 @@ public class Author_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.firstName$_Jim));
+    tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.firstName$_Jim).charAt(0) + ".");
     tgs.append(" ");
     if (SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.middleName$_JZp) != null) {
-      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.middleName$_JZp));
+      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.middleName$_JZp).charAt(0) + ".");
       tgs.append(" ");
     }
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.surname$_Q5N));
