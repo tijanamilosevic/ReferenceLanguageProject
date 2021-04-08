@@ -23,6 +23,9 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
+      </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
@@ -62,9 +65,6 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -92,7 +92,7 @@
         <property role="3F0ifm" value="MISC:" />
       </node>
       <node concept="3F0ifn" id="3nPg1cHhP93" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="`````" />
       </node>
       <node concept="3EZMnI" id="3nPg1cHhP9a" role="3EZMnx">
         <node concept="VPM3Z" id="3nPg1cHhP9c" role="3F10Kt" />
@@ -173,8 +173,14 @@
       <node concept="3F0ifn" id="1SVD7Hlodr1" role="3EZMnx">
         <property role="3F0ifm" value="ARTICLE: " />
       </node>
-      <node concept="3F0ifn" id="1SVD7HlpIDB" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+      <node concept="3F0ifn" id="15pTJHI_xwB" role="3EZMnx">
+        <property role="3F0ifm" value="Required fileds are author, title, journal and year. " />
+        <node concept="Vb9p2" id="15pTJHIAWoO" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="15pTJHI_ykT" role="3EZMnx">
+        <property role="3F0ifm" value="````````````````````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="1SVD7Hlodr7" role="3EZMnx">
         <node concept="VPM3Z" id="1SVD7Hlodr9" role="3F10Kt" />
@@ -247,7 +253,7 @@
           <node concept="VPM3Z" id="1SVD7HlohKU" role="3F10Kt" />
           <node concept="3XFhqQ" id="1SVD7Hlpi0l" role="3EZMnx" />
           <node concept="3F0ifn" id="1SVD7Hlpi0t" role="3EZMnx">
-            <property role="3F0ifm" value="Numer: " />
+            <property role="3F0ifm" value="Number: " />
           </node>
           <node concept="3F0A7n" id="1SVD7HlohL$" role="3EZMnx">
             <property role="39s7Ar" value="true" />
@@ -301,15 +307,10 @@
                         <ref role="37wK5l" to="tf3z:25ZJgfWb4k$" resolve="getReferenceNumber" />
                       </node>
                     </node>
-                    <node concept="3cpWs3" id="1SVD7HltUU4" role="3uHU7B">
-                      <node concept="2OqwBi" id="1SVD7HltTRS" role="3uHU7B">
-                        <node concept="pncrf" id="1SVD7HltTGf" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="1SVD7HltU1k" role="2OqNvi">
-                          <ref role="37wK5l" to="tf3z:1SVD7HltPDO" resolve="getNuberOfReferences" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="1SVD7HltUU8" role="3uHU7w">
-                        <property role="Xl_RC" value="," />
+                    <node concept="2OqwBi" id="1SVD7HltTRS" role="3uHU7B">
+                      <node concept="pncrf" id="1SVD7HltTGf" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="1SVD7HltU1k" role="2OqNvi">
+                        <ref role="37wK5l" to="tf3z:1SVD7HltPDO" resolve="getNumberOfReferences" />
                       </node>
                     </node>
                   </node>
@@ -350,8 +351,11 @@
       <node concept="3F0ifn" id="1SVD7HlpNlc" role="3EZMnx">
         <property role="3F0ifm" value="IN BOOK: " />
       </node>
+      <node concept="3F0ifn" id="15pTJHI_DXs" role="3EZMnx">
+        <property role="3F0ifm" value="Required fileds are author, title, book title, publisher and year. " />
+      </node>
       <node concept="3F0ifn" id="1SVD7HlpNld" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="``````````````````````````````````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="1SVD7HlpNle" role="3EZMnx">
         <node concept="VPM3Z" id="1SVD7HlpNlf" role="3F10Kt" />
@@ -502,8 +506,11 @@
       <node concept="3F0ifn" id="1SVD7HlpTP5" role="3EZMnx">
         <property role="3F0ifm" value="IN PROCEEDINGS: " />
       </node>
+      <node concept="3F0ifn" id="15pTJHI_E4N" role="3EZMnx">
+        <property role="3F0ifm" value="Required fileds are author, title, book title, year, series, publisher. " />
+      </node>
       <node concept="3F0ifn" id="1SVD7HlpTP6" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="````````````````````````````````````````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="1SVD7HlpTP7" role="3EZMnx">
         <node concept="VPM3Z" id="1SVD7HlpTP8" role="3F10Kt" />
@@ -621,8 +628,11 @@
       <node concept="3F0ifn" id="1SVD7Hlq2vo" role="3EZMnx">
         <property role="3F0ifm" value="PHD THESIS: " />
       </node>
+      <node concept="3F0ifn" id="15pTJHI_E_t" role="3EZMnx">
+        <property role="3F0ifm" value="Required fileds are author, title, year and school. " />
+      </node>
       <node concept="3F0ifn" id="1SVD7Hlq2vp" role="3EZMnx">
-        <property role="3F0ifm" value="``````````" />
+        <property role="3F0ifm" value="```````````````````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="1SVD7Hlq2vq" role="3EZMnx">
         <node concept="VPM3Z" id="1SVD7Hlq2vr" role="3F10Kt" />
@@ -720,10 +730,10 @@
         <property role="3F0ifm" value="MASTER_THESIS:" />
       </node>
       <node concept="3F0ifn" id="3nPg1cHlogW" role="3EZMnx">
-        <property role="3F0ifm" value="The required fileds are: author, title, school, year." />
+        <property role="3F0ifm" value="Required fileds are author, title, school and year." />
       </node>
       <node concept="3F0ifn" id="3nPg1cHhPfF" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="````````````````````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="3nPg1cHhPgt" role="3EZMnx">
         <node concept="VPM3Z" id="3nPg1cHhPgv" role="3F10Kt" />
@@ -731,12 +741,16 @@
           <node concept="VPM3Z" id="3nPg1cHhPgP" role="3F10Kt" />
           <node concept="3XFhqQ" id="3nPg1cHhPgY" role="3EZMnx" />
           <node concept="3F0ifn" id="3nPg1cHhPh4" role="3EZMnx">
-            <property role="3F0ifm" value="Author" />
-          </node>
-          <node concept="3F1sOY" id="3nPg1cHhPhy" role="3EZMnx">
-            <ref role="1NtTu8" to="gu6h:1QyflKigtKA" resolve="author" />
+            <property role="3F0ifm" value="Author:" />
           </node>
           <node concept="l2Vlx" id="3nPg1cHhPgS" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="15pTJHIGZmD" role="3EZMnx">
+          <node concept="VPM3Z" id="15pTJHIGZmF" role="3F10Kt" />
+          <node concept="3F1sOY" id="15pTJHIGZnn" role="3EZMnx">
+            <ref role="1NtTu8" to="gu6h:1QyflKigtKA" resolve="author" />
+          </node>
+          <node concept="l2Vlx" id="15pTJHIGZmI" role="2iSdaV" />
         </node>
         <node concept="3EZMnI" id="3nPg1cHhPhJ" role="3EZMnx">
           <node concept="VPM3Z" id="3nPg1cHhPhL" role="3F10Kt" />
@@ -813,10 +827,10 @@
         <property role="3F0ifm" value="CONFERENCE:" />
       </node>
       <node concept="3F0ifn" id="3nPg1cHlog6" role="3EZMnx">
-        <property role="3F0ifm" value="The required fileds are: author, title. " />
+        <property role="3F0ifm" value="Required fileds are author and title. " />
       </node>
       <node concept="3F0ifn" id="3nPg1cHhPpl" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="`````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="3nPg1cHhPps" role="3EZMnx">
         <node concept="VPM3Z" id="3nPg1cHhPpu" role="3F10Kt" />
@@ -924,10 +938,10 @@
         <property role="3F0ifm" value="BOOKLET:" />
       </node>
       <node concept="3F0ifn" id="3nPg1cHlofs" role="3EZMnx">
-        <property role="3F0ifm" value="Required filed is title. " />
+        <property role="3F0ifm" value="Required fileds are author and title. " />
       </node>
       <node concept="3F0ifn" id="3nPg1cHhP$$" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="`````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="3nPg1cHhP$F" role="3EZMnx">
         <node concept="VPM3Z" id="3nPg1cHhP$H" role="3F10Kt" />
@@ -1008,8 +1022,11 @@
       <node concept="3F0ifn" id="3bll3DtO1ue" role="3EZMnx">
         <property role="3F0ifm" value="BOOK: " />
       </node>
+      <node concept="3F0ifn" id="15pTJHI_DVi" role="3EZMnx">
+        <property role="3F0ifm" value="Required fileds are author, title, puplisher and year. " />
+      </node>
       <node concept="3F0ifn" id="3bll3DtO1uf" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="``````````````````````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="3bll3DtO1ug" role="3EZMnx">
         <node concept="VPM3Z" id="3bll3DtO1uh" role="3F10Kt" />
@@ -1091,8 +1108,11 @@
       <node concept="3F0ifn" id="3bll3DtO1Eg" role="3EZMnx">
         <property role="3F0ifm" value="INCOLLECTION: " />
       </node>
+      <node concept="3F0ifn" id="15pTJHI_E05" role="3EZMnx">
+        <property role="3F0ifm" value="Required fileds are author, title, book title and year. " />
+      </node>
       <node concept="3F0ifn" id="3bll3DtO1Eh" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="```````````````````````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="3bll3DtO1Ei" role="3EZMnx">
         <node concept="VPM3Z" id="3bll3DtO1Ej" role="3F10Kt" />
@@ -1133,6 +1153,7 @@
           </node>
           <node concept="l2Vlx" id="3bll3DtO1ED" role="2iSdaV" />
           <node concept="3F0A7n" id="3bll3DtO1EE" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyqV" resolve="editor" />
           </node>
         </node>
@@ -1209,8 +1230,11 @@
       <node concept="3F0ifn" id="3bll3DtO1K2" role="3EZMnx">
         <property role="3F0ifm" value="MANUAL: " />
       </node>
+      <node concept="3F0ifn" id="15pTJHI_Ey3" role="3EZMnx">
+        <property role="3F0ifm" value="Required fileds are author, title and year. " />
+      </node>
       <node concept="3F0ifn" id="3bll3DtO1K3" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="````````````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="3bll3DtO1K4" role="3EZMnx">
         <node concept="VPM3Z" id="3bll3DtO1K5" role="3F10Kt" />
@@ -1251,6 +1275,7 @@
           </node>
           <node concept="l2Vlx" id="3bll3DtO1Kr" role="2iSdaV" />
           <node concept="3F0A7n" id="3bll3DtO1Ks" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyr8" resolve="organization" />
           </node>
         </node>
@@ -1291,8 +1316,11 @@
       <node concept="3F0ifn" id="3bll3DtO1Sc" role="3EZMnx">
         <property role="3F0ifm" value="PROCEEDINGS: " />
       </node>
+      <node concept="3F0ifn" id="15pTJHI_EBY" role="3EZMnx">
+        <property role="3F0ifm" value="Required fileds author, are title and year. " />
+      </node>
       <node concept="3F0ifn" id="3bll3DtO1Sd" role="3EZMnx">
-        <property role="3F0ifm" value="````````" />
+        <property role="3F0ifm" value="```````````````````````````````````````````" />
       </node>
       <node concept="3EZMnI" id="3bll3DtO1Se" role="3EZMnx">
         <node concept="VPM3Z" id="3bll3DtO1Sf" role="3F10Kt" />
@@ -1333,6 +1361,7 @@
           </node>
           <node concept="l2Vlx" id="3bll3DtO1S_" role="2iSdaV" />
           <node concept="3F0A7n" id="3bll3DtO1SA" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
             <ref role="1NtTu8" to="gu6h:5dy$fAeWyrK" resolve="editor" />
           </node>
         </node>
@@ -1368,7 +1397,7 @@
           </node>
           <node concept="3F0A7n" id="3bll3DtO1V1" role="3EZMnx">
             <property role="39s7Ar" value="true" />
-            <ref role="1NtTu8" to="gu6h:5dy$fAeWyrn" resolve="series" />
+            <ref role="1NtTu8" to="gu6h:5dy$fAeWyrq" resolve="volume" />
           </node>
           <node concept="l2Vlx" id="3bll3DtO1V2" role="2iSdaV" />
         </node>

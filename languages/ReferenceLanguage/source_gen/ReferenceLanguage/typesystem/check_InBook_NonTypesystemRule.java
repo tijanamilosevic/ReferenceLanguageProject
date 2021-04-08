@@ -38,7 +38,7 @@ public class check_InBook_NonTypesystemRule extends AbstractNonTypesystemRule_Ru
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(inBook, "Publisher could not be empty!", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2178515694384912856", null, errorTarget);
       }
     }
-    if (isEmptyString(SPropertyOperations.getString(inBook, PROPS.year$6Tuf))) {
+    if (SPropertyOperations.getInteger(inBook, PROPS.year$6Tuf) == 0) {
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(inBook, "Year could not be empty", "r:43f71e48-a850-46da-878a-0fd5ec7107b1(ReferenceLanguage.typesystem)", "2178515694384923120", null, errorTarget);

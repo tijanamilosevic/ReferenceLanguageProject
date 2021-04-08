@@ -14,11 +14,11 @@ public class MiscNum {
   public static class NodeFactory_1530532506010545868 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
       SNode nodeLibraries = (SNode) enclosingNode;
-      SPropertyOperations.assign(newNode, PROPS.serNumber$ACbS, (int) Libraries__BehaviorDescriptor.getNuberOfReferences_id1SVD7HltPDO.invoke(nodeLibraries));
+      SPropertyOperations.assign(newNode, PROPS.serNumber$3owZ, (int) Libraries__BehaviorDescriptor.getNumberOfReferences_id1SVD7HltPDO.invoke(nodeLibraries));
     }
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty serNumber$ACbS = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc3cL, 0x153d8b3481f26ec2L, "serNumber");
+    /*package*/ static final SProperty serNumber$3owZ = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1e3ba47b555fd52cL, 0x1159e6fb6e9e4ecbL, "serNumber");
   }
 }

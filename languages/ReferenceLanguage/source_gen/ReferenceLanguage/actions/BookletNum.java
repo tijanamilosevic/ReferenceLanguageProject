@@ -14,11 +14,11 @@ public class BookletNum {
   public static class NodeFactory_1530532506010541824 implements NodeFactory {
     public void setup(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
       SNode nodeLibraries = (SNode) enclosingNode;
-      SPropertyOperations.assign(newNode, PROPS.serNumber$sPCH, (int) Libraries__BehaviorDescriptor.getNuberOfReferences_id1SVD7HltPDO.invoke(nodeLibraries));
+      SPropertyOperations.assign(newNode, PROPS.serNumber$3owZ, (int) Libraries__BehaviorDescriptor.getNumberOfReferences_id1SVD7HltPDO.invoke(nodeLibraries));
     }
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty serNumber$sPCH = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dbeaL, 0x153d8b3481f25cddL, "serNumber");
+    /*package*/ static final SProperty serNumber$3owZ = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1e3ba47b555fd52cL, 0x1159e6fb6e9e4ecbL, "serNumber");
   }
 }

@@ -79,13 +79,13 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "The required fileds are: author, title. ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Required fileds are author and title. ");
     editorCell.setCellId("Constant_6tc1dk_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createConstant_2() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "````````");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "`````````````````````````````````````");
     editorCell.setCellId("Constant_6tc1dk_c0");
     editorCell.setDefaultText("");
     return editorCell;

@@ -16,12 +16,9 @@ public class MasterThesis_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("[");
-    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNumber$Pyug) + "] ");
-    tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4), PROPS.firstName$_Jim) + " ");
-    if (SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4), PROPS.middleName$_JZp) != null) {
-      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4), PROPS.middleName$_JZp).charAt(0) + ". ");
-    }
-    tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4), PROPS.surname$_Q5N) + ". ");
+    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNumber$3owZ) + "] ");
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), LINKS.author$lVA4));
+    tgs.append(". ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.title$lW46) + ". Master's thesis, ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.school$lWy8) + ", ");
     if (SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.address$m36$) != null) {
@@ -34,10 +31,7 @@ public class MasterThesis_TextGen extends TextGenDescriptorBase {
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty serNumber$Pyug = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc25L, 0x153d8b3481f26a57L, "serNumber");
-    /*package*/ static final SProperty firstName$_Jim = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L, 0x1a03dc0acd30fd73L, "firstName");
-    /*package*/ static final SProperty middleName$_JZp = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L, 0x1a03dc0acd30fd76L, "middleName");
-    /*package*/ static final SProperty surname$_Q5N = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd1eab40L, 0x1a03dc0acd30fd7bL, "surname");
+    /*package*/ static final SProperty serNumber$3owZ = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1e3ba47b555fd52cL, 0x1159e6fb6e9e4ecbL, "serNumber");
     /*package*/ static final SProperty title$lW46 = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc25L, 0x1da23d5c1241dc28L, "title");
     /*package*/ static final SProperty school$lWy8 = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc25L, 0x1da23d5c1241dc2aL, "school");
     /*package*/ static final SProperty address$m36$ = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1da23d5c1241dc25L, 0x1da23d5c1241dc31L, "address");

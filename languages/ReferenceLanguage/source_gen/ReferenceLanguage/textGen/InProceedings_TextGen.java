@@ -18,7 +18,7 @@ public class InProceedings_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("[");
-    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNum$h3ao) + "] ");
+    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNumber$3owZ) + "] ");
     {
       Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.authors$9PDJ);
       final SNode lastItem = Sequence.fromIterable(collection).last();
@@ -51,7 +51,7 @@ public class InProceedings_TextGen extends TextGenDescriptorBase {
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty serNum$h3ao = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc62L, 0x1159e6fb6e806349L, "serNum");
+    /*package*/ static final SProperty serNumber$3owZ = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1e3ba47b555fd52cL, 0x1159e6fb6e9e4ecbL, "serNumber");
     /*package*/ static final SProperty title$9QmM = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc62L, 0x1a03dc0acd30fc66L, "title");
     /*package*/ static final SProperty bookTitle$9R3P = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc62L, 0x1a03dc0acd30fc69L, "bookTitle");
     /*package*/ static final SProperty series$9Xaf = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc62L, 0x1a03dc0acd30fc6eL, "series");

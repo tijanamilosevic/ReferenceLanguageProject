@@ -14,7 +14,7 @@ public class Proceedings_TextGen extends TextGenDescriptorBase {
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("[");
-    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNumber$laA) + "] ");
+    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNumber$3owZ) + "] ");
     if (SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.editor$vU89) != null) {
       tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.editor$vU89) + ", editors. ");
     }
@@ -32,7 +32,7 @@ public class Proceedings_TextGen extends TextGenDescriptorBase {
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty serNumber$laA = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef226d4L, 0x21c2335636e83186L, "serNumber");
+    /*package*/ static final SProperty serNumber$3owZ = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1e3ba47b555fd52cL, 0x1159e6fb6e9e4ecbL, "serNumber");
     /*package*/ static final SProperty editor$vU89 = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef226d4L, 0x536290f98ef226f0L, "editor");
     /*package*/ static final SProperty title$v_0J = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef226d4L, 0x536290f98ef226d5L, "title");
     /*package*/ static final SProperty volume$vF79 = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x536290f98ef226d4L, 0x536290f98ef226daL, "volume");

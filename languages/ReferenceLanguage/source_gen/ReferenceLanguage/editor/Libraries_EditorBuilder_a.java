@@ -96,7 +96,7 @@ import org.jetbrains.mps.openapi.language.SInterfaceConcept;
   private EditorCell createReadOnlyModelAccessor_0() {
     EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new ModelAccessor.ReadOnly() {
       public String getText() {
-        return (int) Libraries__BehaviorDescriptor.getNuberOfReferences_id1SVD7HltPDO.invoke(myNode) + "," + Libraries__BehaviorDescriptor.getReferenceNumber_id25ZJgfWb4k$.invoke(myNode);
+        return (int) Libraries__BehaviorDescriptor.getNumberOfReferences_id1SVD7HltPDO.invoke(myNode) + Libraries__BehaviorDescriptor.getReferenceNumber_id25ZJgfWb4k$.invoke(myNode);
       }
     }, myNode);
     editorCell.setAction(CellActionType.DELETE, EmptyCellAction.getInstance());

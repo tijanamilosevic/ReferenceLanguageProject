@@ -25,15 +25,15 @@ import org.jetbrains.mps.openapi.language.SContainmentLink;
 public final class Libraries__BehaviorDescriptor extends BaseBHDescriptor {
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1e3ba47b555e32e8L, "ReferenceLanguage.structure.Libraries");
 
-  public static final SMethod<Integer> getNuberOfReferences_id1SVD7HltPDO = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getNuberOfReferences").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1SVD7HltPDO").build();
+  public static final SMethod<Integer> getNumberOfReferences_id1SVD7HltPDO = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("getNumberOfReferences").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1SVD7HltPDO").build();
   public static final SMethod<String> getReferenceNumber_id25ZJgfWb4k$ = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("getReferenceNumber").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("25ZJgfWb4k$").build();
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getNuberOfReferences_id1SVD7HltPDO, getReferenceNumber_id25ZJgfWb4k$);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(getNumberOfReferences_id1SVD7HltPDO, getReferenceNumber_id25ZJgfWb4k$);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
-  /*package*/ static int getNuberOfReferences_id1SVD7HltPDO(@NotNull SNode __thisNode__) {
+  /*package*/ static int getNumberOfReferences_id1SVD7HltPDO(@NotNull SNode __thisNode__) {
     return ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.type$3NAy)).count();
   }
   /*package*/ static String getReferenceNumber_id25ZJgfWb4k$(@NotNull SNode __thisNode__) {
@@ -95,40 +95,40 @@ public final class Libraries__BehaviorDescriptor extends BaseBHDescriptor {
     String ref = "";
 
     if (article > 0) {
-      ref += " [Artilces:" + article + "]";
+      ref += ", [Articles:" + article + "]";
     }
     if (book > 0) {
-      ref += " [Books:" + book + "]";
+      ref += ", [Books:" + book + "]";
     }
     if (booklet > 0) {
-      ref += " [Booklets:" + booklet + "]";
+      ref += ", [Booklets:" + booklet + "]";
     }
     if (conference > 0) {
-      ref += " [Conference:" + conference + "]";
+      ref += ", [Conference:" + conference + "]";
     }
     if (inbook > 0) {
-      ref += " [InBooks:" + inbook + "]";
+      ref += ", [InBooks:" + inbook + "]";
     }
     if (incollection > 0) {
-      ref += " [InCollections:" + incollection + "]";
+      ref += ", [InCollections:" + incollection + "]";
     }
     if (inproceedings > 0) {
-      ref += " [InProceedings:" + inproceedings + "]";
+      ref += ", [InProceedings:" + inproceedings + "]";
     }
     if (manual > 0) {
-      ref += " [Manual:" + manual + "]";
+      ref += ", [Manual:" + manual + "]";
     }
     if (masterThesis > 0) {
-      ref += " [Master thesis:" + masterThesis + "]";
+      ref += ", [Master thesis:" + masterThesis + "]";
     }
     if (misc > 0) {
-      ref += " [Misc:" + misc + "]";
+      ref += ", [Misc:" + misc + "]";
     }
     if (phdThesis > 0) {
-      ref += " [PHD Thesis:" + phdThesis + "]";
+      ref += ", [PHD Thesis:" + phdThesis + "]";
     }
     if (proceedings > 0) {
-      ref += " [Proceedings:" + proceedings + "]";
+      ref += ", [Proceedings:" + proceedings + "]";
     }
 
 
@@ -151,7 +151,7 @@ public final class Libraries__BehaviorDescriptor extends BaseBHDescriptor {
     }
     switch (methodIndex) {
       case 0:
-        return (T) ((Integer) getNuberOfReferences_id1SVD7HltPDO(node));
+        return (T) ((Integer) getNumberOfReferences_id1SVD7HltPDO(node));
       case 1:
         return (T) ((String) getReferenceNumber_id25ZJgfWb4k$(node));
       default:
