@@ -925,7 +925,7 @@
           <node concept="l9hG8" id="20M9$C2BUuc" role="lcghm">
             <node concept="3cpWs3" id="20M9$C2BUud" role="lb14g">
               <node concept="Xl_RD" id="20M9$C2BUue" role="3uHU7w">
-                <property role="Xl_RC" value=", " />
+                <property role="Xl_RC" value=". Master's thesis, " />
               </node>
               <node concept="2OqwBi" id="20M9$C2BUuf" role="3uHU7B">
                 <node concept="117lpO" id="20M9$C2BUug" role="2Oq$k0" />
