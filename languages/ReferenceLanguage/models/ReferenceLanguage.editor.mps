@@ -298,7 +298,7 @@
                     <node concept="2OqwBi" id="25ZJgfWbo7l" role="3uHU7w">
                       <node concept="pncrf" id="25ZJgfWbnBR" role="2Oq$k0" />
                       <node concept="2qgKlT" id="25ZJgfWbosz" role="2OqNvi">
-                        <ref role="37wK5l" to="tf3z:25ZJgfWb4k$" resolve="getNumberOfBooks" />
+                        <ref role="37wK5l" to="tf3z:25ZJgfWb4k$" resolve="getReferenceNumber" />
                       </node>
                     </node>
                     <node concept="3cpWs3" id="1SVD7HltUU4" role="3uHU7B">

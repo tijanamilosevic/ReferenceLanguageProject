@@ -5,18 +5,20 @@ package ReferenceLanguage.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SProperty;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 
 public class InBook_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
+    tgs.append("[");
+    tgs.append(SPropertyOperations.getInteger(ctx.getPrimaryInput(), PROPS.serNum$W_wU) + "] ");
     {
       Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), LINKS.authors$6LXJ);
       final SNode lastItem = Sequence.fromIterable(collection).last();
@@ -44,15 +46,16 @@ public class InBook_TextGen extends TextGenDescriptorBase {
     tgs.append(".");
   }
 
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink authors$6LXJ = MetaAdapterFactory.getContainmentLink(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL, 0x1a03dc0acd30fc2fL, "authors");
-  }
-
   private static final class PROPS {
+    /*package*/ static final SProperty serNum$W_wU = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL, 0x1159e6fb6e80277eL, "serNum");
     /*package*/ static final SProperty title$6MEM = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL, 0x1a03dc0acd30fc32L, "title");
     /*package*/ static final SProperty pages$79Ek = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL, 0x1a03dc0acd30fc55L, "pages");
     /*package*/ static final SProperty publisher$6V7m = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL, 0x1a03dc0acd30fc41L, "publisher");
     /*package*/ static final SProperty address$729O = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL, 0x1a03dc0acd30fc4aL, "address");
     /*package*/ static final SProperty year$6Tuf = MetaAdapterFactory.getProperty(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL, 0x1a03dc0acd30fc3aL, "year");
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink authors$6LXJ = MetaAdapterFactory.getContainmentLink(0x28685c99a6841f2L, 0x9f1069a76b1b1f42L, 0x1a03dc0acd30fc2eL, 0x1a03dc0acd30fc2fL, "authors");
   }
 }
