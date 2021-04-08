@@ -27,12 +27,20 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new Article_TextGen();
       case LanguageConceptSwitch.Author:
         return new Author_TextGen();
+      case LanguageConceptSwitch.Booklet:
+        return new Booklet_TextGen();
+      case LanguageConceptSwitch.Conference:
+        return new Conference_TextGen();
       case LanguageConceptSwitch.InBook:
         return new InBook_TextGen();
       case LanguageConceptSwitch.InProceedings:
         return new InProceedings_TextGen();
       case LanguageConceptSwitch.Libraries:
         return new Libraries_TextGen();
+      case LanguageConceptSwitch.MasterThesis:
+        return new MasterThesis_TextGen();
+      case LanguageConceptSwitch.Misc:
+        return new Misc_TextGen();
       case LanguageConceptSwitch.PhdThesis:
         return new PhdThesis_TextGen();
     }
