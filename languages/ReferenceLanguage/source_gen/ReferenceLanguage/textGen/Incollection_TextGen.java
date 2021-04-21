@@ -31,7 +31,7 @@ public class Incollection_TextGen extends TextGenDescriptorBase {
     }
     tgs.append(". ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.title$swQe));
-    tgs.append(".");
+    tgs.append(". ");
     if (SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.editor$veGN) != null) {
       tgs.append(" In " + SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.editor$veGN) + ", editors, ");
     }

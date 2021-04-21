@@ -34,8 +34,8 @@ public class InBook_TextGen extends TextGenDescriptorBase {
     if (SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.pages$79Ek) != null) {
       tgs.append(", pages ");
       tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.pages$79Ek));
-      tgs.append(". ");
     }
+    tgs.append(". ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.publisher$6V7m));
     if (SPropertyOperations.getString(ctx.getPrimaryInput(), PROPS.address$729O) != null) {
       tgs.append(", ");

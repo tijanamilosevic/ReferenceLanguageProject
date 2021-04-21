@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
@@ -81,6 +82,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createConstant_1() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Required fileds are author and title. ");
     editorCell.setCellId("Constant_6tc1dk_b0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
+    editorCell.getStyle().putAll(style);
     editorCell.setDefaultText("");
     return editorCell;
   }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-9a0gszsvtkngez9xxivknsxqwcqrtv4">
+<product version="3" modelHash="-6ryf0rqog8qgl0i4zjzp6xuiexs4gc3">
   <files names="Article_Editor.java:Article_EditorBuilder_a.java:Author_Editor.java:Author_EditorBuilder_a.java:Book_Editor.java:Book_EditorBuilder_a.java:Booklet_Editor.java:Booklet_EditorBuilder_a.java:Conference_Editor.java:Conference_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:InBook_Editor.java:InBook_EditorBuilder_a.java:InProceedings_Editor.java:InProceedings_EditorBuilder_a.java:Incollection_Editor.java:Incollection_EditorBuilder_a.java:Libraries_Editor.java:Libraries_EditorBuilder_a.java:Manual_Editor.java:Manual_EditorBuilder_a.java:MasterThesis_Editor.java:MasterThesis_EditorBuilder_a.java:Misc_Editor.java:Misc_EditorBuilder_a.java:PhdThesis_Editor.java:PhdThesis_EditorBuilder_a.java:Proceedings_Editor.java:Proceedings_EditorBuilder_a.java" />
 </product>
 

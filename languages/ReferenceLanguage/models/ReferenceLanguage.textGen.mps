@@ -459,9 +459,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="la8eA" id="15pTJHIifnV" role="lcghm">
-                <property role="lacIc" value=". " />
-              </node>
             </node>
           </node>
           <node concept="3y3z36" id="15pTJHIf1rN" role="3clFbw">
@@ -474,12 +471,29 @@
             </node>
           </node>
         </node>
-        <node concept="lc7rE" id="15pTJHIf2gF" role="3cqZAp">
-          <node concept="l9hG8" id="15pTJHIf2i$" role="lcghm">
-            <node concept="2OqwBi" id="15pTJHIf2rk" role="lb14g">
-              <node concept="117lpO" id="15pTJHIf2jq" role="2Oq$k0" />
-              <node concept="3TrcHB" id="15pTJHIf2_u" role="2OqNvi">
+        <node concept="lc7rE" id="4C4v3YHc6px" role="3cqZAp">
+          <node concept="la8eA" id="4C4v3YHc6Ib" role="lcghm">
+            <property role="lacIc" value=". " />
+          </node>
+          <node concept="l9hG8" id="4C4v3YHc6IZ" role="lcghm">
+            <node concept="2OqwBi" id="4C4v3YHc6RK" role="lb14g">
+              <node concept="117lpO" id="4C4v3YHc6JQ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="4C4v3YHc71U" role="2OqNvi">
                 <ref role="3TsBF5" to="gu6h:1C3R0FdcfL1" resolve="publisher" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="4C4v3YHc74K" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="lc7rE" id="15pTJHIf2gF" role="8Wnug">
+            <node concept="l9hG8" id="15pTJHIf2i$" role="lcghm">
+              <node concept="2OqwBi" id="15pTJHIf2rk" role="lb14g">
+                <node concept="117lpO" id="15pTJHIf2jq" role="2Oq$k0" />
+                <node concept="3TrcHB" id="15pTJHIf2_u" role="2OqNvi">
+                  <ref role="3TsBF5" to="gu6h:1C3R0FdcfL1" resolve="publisher" />
+                </node>
               </node>
             </node>
           </node>
@@ -1631,7 +1645,7 @@
             </node>
           </node>
           <node concept="la8eA" id="272cPoQTpzV" role="lcghm">
-            <property role="lacIc" value="." />
+            <property role="lacIc" value=". " />
           </node>
         </node>
         <node concept="3clFbJ" id="272cPoQTuFS" role="3cqZAp">

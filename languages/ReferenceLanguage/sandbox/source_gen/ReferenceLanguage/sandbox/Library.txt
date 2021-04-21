@@ -1,2 +1,14 @@
 REFERENCES
 
+[1] T. S. Milosevic. Title. Publisher, Address, 2021.
+[2] T. Milosevic. Misc title. nekako, 2020. nema note.
+[3] P. Peric. Kad dodje leto. Knjiga o letu, pages 212-250. 1997.
+[4] P. Peric. Neki title. k, August 1.
+[5] P. Peric. Novi lideri, 198-200. publisher, 1998.
+[6] t. tomas. title, pages 198-200. publisherb 1, adresa, 2019.
+[7] T. Milsoevic. title. In book title, 2, pages 122-1200, adresa, 2020. publisher.
+[8] P. M. Peric. Title. org, adresa, 2020.
+[9] P. Peric. Master rad. Master's thesis, FON, Jove Ilic, August. 2021.
+[10] Nikola jovanovic, editors. Title, 2020.
+[11] P. PEric. Rad title. PhD thesis, FON, jove Ilica, September 2021.
+[12] P. Peric. title. spome journal, 2021.
