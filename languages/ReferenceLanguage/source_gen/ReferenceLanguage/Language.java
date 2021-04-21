@@ -12,6 +12,8 @@ import ReferenceLanguage.actions.ActionAspectDescriptorImpl;
 import jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor;
 import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
 import ReferenceLanguage.editor.EditorAspectDescriptorImpl;
+import jetbrains.mps.openapi.intentions.IntentionAspectDescriptor;
+import ReferenceLanguage.intentions.IntentionsDescriptor;
 import jetbrains.mps.smodel.runtime.StructureAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConceptPresentationAspect;
 import ReferenceLanguage.structure.ConceptPresentationAspectImpl;
@@ -59,6 +61,9 @@ public class Language extends LanguageRuntime {
     }
     if (aspectClass == EditorAspectDescriptor.class) {
       return aspectClass.cast(new EditorAspectDescriptorImpl());
+    }
+    if (aspectClass == IntentionAspectDescriptor.class) {
+      return aspectClass.cast(new IntentionsDescriptor());
     }
     if (aspectClass == StructureAspectDescriptor.class) {
       return aspectClass.cast(new ReferenceLanguage.structure.StructureAspectDescriptor());

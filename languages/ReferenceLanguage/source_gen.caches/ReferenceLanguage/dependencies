@@ -4,6 +4,7 @@
     <classNode dependClassName="ReferenceLanguage.actions.ActionAspectDescriptorImpl" />
     <classNode dependClassName="ReferenceLanguage.behavior.BehaviorAspectDescriptor" />
     <classNode dependClassName="ReferenceLanguage.editor.EditorAspectDescriptorImpl" />
+    <classNode dependClassName="ReferenceLanguage.intentions.IntentionsDescriptor" />
     <classNode dependClassName="ReferenceLanguage.structure.ConceptPresentationAspectImpl" />
     <classNode dependClassName="ReferenceLanguage.structure.StructureAspectDescriptor" />
     <classNode dependClassName="ReferenceLanguage.textGen.TextGenAspectDescriptor" />
@@ -15,6 +16,7 @@
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor" />
     <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.ActionAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.intentions.IntentionAspectDescriptor" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
     <classNode dependClassName="jetbrains.mps.smodel.language.LanguageExtensions" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />

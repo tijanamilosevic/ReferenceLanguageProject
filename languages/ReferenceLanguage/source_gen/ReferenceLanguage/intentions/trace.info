@@ -1,3 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info version="2" />
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="IntentionsDescriptor.java">
+      <unit at="18,0,56,0" name="ReferenceLanguage.intentions.IntentionsDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:01ababf1-49e0-4e38-bba3-6f204dbe34d4(ReferenceLanguage.intentions)/5333524471643141118">
+    <file name="IntentionsDescriptor.java">
+      <node id="5333524471643141118" at="37,47,38,53" concept="1" />
+      <node id="5333524471643141118" at="50,52,51,39" concept="1" />
+    </file>
+    <file name="addNewType_Intention.java">
+      <node id="5333524471643141118" at="24,0,25,0" concept="2" trace="myCachedExecutable" />
+      <node id="5333524471643141118" at="25,33,26,143" concept="8" />
+      <node id="5333524471643141118" at="29,35,30,24" concept="6" />
+      <node id="5333524471643141118" at="33,84,34,16" concept="6" />
+      <node id="5333524471643141118" at="37,35,38,17" concept="6" />
+      <node id="5333524471643141118" at="41,37,42,105" concept="1" />
+      <node id="5333524471643141118" at="43,5,44,30" concept="6" />
+      <node id="5333524471643141436" at="50,87,51,33" concept="6" />
+      <node id="5333524471643141727" at="54,78,55,237" concept="5" />
+      <node id="5333524471643146586" at="55,237,56,100" concept="1" />
+      <node id="5333524471643141118" at="59,48,60,39" concept="6" />
+      <node id="5333524471643141118" at="65,0,66,0" concept="7" trace="type$3NAy" />
+      <node id="5333524471643141118" at="47,0,49,0" concept="0" trace="IntentionImplementation#()V" />
+      <node id="5333524471643141118" at="25,0,28,0" concept="0" trace="addNewType_Intention#()V" />
+      <node id="5333524471643141118" at="40,99,43,5" concept="3" />
+      <node id="5333524471643141118" at="28,0,32,0" concept="4" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="5333524471643141118" at="32,0,36,0" concept="4" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="5333524471643141118" at="36,0,40,0" concept="4" trace="isSurroundWith#()Z" />
+      <node id="5333524471643141118" at="49,0,53,0" concept="4" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <node id="5333524471643141118" at="58,0,62,0" concept="4" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="5333524471643141118" at="53,0,58,0" concept="4" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="5333524471643141118" at="40,0,46,0" concept="4" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <scope id="5333524471643141118" at="47,38,47,38" />
+      <scope id="5333524471643141118" at="25,33,26,143" />
+      <scope id="5333524471643141118" at="29,35,30,24" />
+      <scope id="5333524471643141118" at="33,84,34,16" />
+      <scope id="5333524471643141118" at="37,35,38,17" />
+      <scope id="5333524471643141118" at="41,37,42,105" />
+      <scope id="5333524471643141120" at="50,87,51,33" />
+      <scope id="5333524471643141118" at="59,48,60,39" />
+      <scope id="5333524471643141118" at="47,0,49,0" />
+      <scope id="5333524471643141122" at="54,78,56,100">
+        <var name="newNode" id="5333524471643141730" />
+      </scope>
+      <scope id="5333524471643141118" at="25,0,28,0" />
+      <scope id="5333524471643141118" at="28,0,32,0" />
+      <scope id="5333524471643141118" at="32,0,36,0">
+        <var name="editorContext" id="5333524471643141118" />
+        <var name="node" id="5333524471643141118" />
+      </scope>
+      <scope id="5333524471643141118" at="36,0,40,0" />
+      <scope id="5333524471643141118" at="40,99,44,30" />
+      <scope id="5333524471643141118" at="49,0,53,0">
+        <var name="editorContext" id="5333524471643141118" />
+        <var name="node" id="5333524471643141118" />
+      </scope>
+      <scope id="5333524471643141118" at="58,0,62,0" />
+      <scope id="5333524471643141118" at="53,0,58,0">
+        <var name="editorContext" id="5333524471643141118" />
+        <var name="node" id="5333524471643141118" />
+      </scope>
+      <scope id="5333524471643141118" at="40,0,46,0">
+        <var name="context" id="5333524471643141118" />
+        <var name="node" id="5333524471643141118" />
+      </scope>
+      <unit id="5333524471643141118" at="64,0,67,0" name="ReferenceLanguage.intentions.addNewType_Intention$LINKS" />
+      <unit id="5333524471643141118" at="46,0,63,0" name="ReferenceLanguage.intentions.addNewType_Intention$IntentionImplementation" />
+      <unit id="5333524471643141118" at="23,0,68,0" name="ReferenceLanguage.intentions.addNewType_Intention" />
+    </file>
+  </root>
+</debug-info>
 
